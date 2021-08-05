@@ -1,4 +1,4 @@
-# StarChild
+# StarChild / 星星的孩子
 
 Project that is a demo for creating a plaything for autistic children, made for a PaddlePaddle/Wechaty/Mixlab contest.
 
