@@ -8,13 +8,20 @@ Created on 2021-07-31 12:51
 import os
 import cv2
 import math
+import random
 import argparse
 import numpy as np
 from tqdm import tqdm
 from glob import glob
-import paddlehub as hub
+# import paddlehub as hub
 from multiprocessing import Pool
 from skimage.metrics import structural_similarity as ssim
+
+TEMPLATES = {
+    'r': 'round.png',
+    's': 'square.png',
+    't': 'triangle.png',
+}
 
 class StarChild:
 
@@ -64,9 +71,7 @@ class StarChild:
         cv2.drawContours(canvas, cnts, -1, 255, 3)
 
         # Find circles
-        circles = cv2.HoughCircles(img, cv2.HOUGH_GRADIENT, 1, rows / 3,
-                                  param1=150, param2=30,
-                                  minRadius=int(0.3 * self.one_side), maxRadius=int(0.9 * self.one_side))
+        circles = cv2.HoughCircles(img, cv2.HOUGH_GRADIENT, 1, rows / 3, param1=150, param2=30, minRadius=int(0.3 * self.one_side), maxRadius=int(0.9 * self.one_side))
 
         qualified_circles = []
         if circles is not None:
@@ -211,11 +216,26 @@ class StarChild:
         cv2.imshow('image', concat)
         cv2.waitKey(0)
 
+    def evaluate_one_image(self, image_path, gt=None):
+        img, processed_img = self.load_and_preprocess(image_path)
+        similarities = self.calculate_similarities(processed_img)
+        pred = max(similarities, key=similarities.get)
+        if gt:
+            return pred == gt
+        else:
+            return None
+
+def run_evaluation(gt, image_path):
+    # gt should be one of: r, s, t (round, square, triangle)
+    starchild = StarChild(TEMPLATES)
+    return starchild.evaluate_one_image(image_path, gt)
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Test code")
     parser.add_argument("input", help="Path to folder where images exist")
     parser.add_argument("--debug", action="store_true")
+    parser.add_argument("--test_one", action="store_true", help="Test with one random shape and one random image")
     args = parser.parse_args()
 
     if not os.path.isdir(args.input):
@@ -223,14 +243,15 @@ if __name__ == '__main__':
 
     image_paths = glob("{}/**/*.*".format(args.input), recursive=True)
 
-    templates = {
-        'r': 'round.png',
-        's': 'square.png',
-        't': 'triangle.png',
-    }
+    if args.test_one:
+        one_image_path = random.choice(image_paths)
+        test_shape = random.choice(["r", "s", "t"])
+        res = run_evaluation(test_shape, one_image_path)
+        print("Random shape: {}, test image: {}, match: {}".format(test_shape, one_image_path, res))
+        quit()
 
     # Load templates and images
-    starchild = StarChild(templates)
+    starchild = StarChild(TEMPLATES)
 
     if args.debug:
         template_collage = starchild.generate_collage(list(starchild.templates.values()))
@@ -239,4 +260,4 @@ if __name__ == '__main__':
 
     starchild.run(image_paths, args.debug)
 
-    model = hub.Module(name="resnet50_vd_imagenet_ssld")
+    # model = hub.Module(name="resnet50_vd_imagenet_ssld")
