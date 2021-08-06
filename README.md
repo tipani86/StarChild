@@ -12,8 +12,8 @@ The repo includes some test images under the `test` directory, you can try with 
 
 Use below method if you are packaging the core codes as part of an external UX element:
 
-1. `import run_test`
-2. Call `run_test.run_evaluation` with two arguments: a) requested shape string* and b) test image local file path. It will return `True` or `False` depending on whether it thinks the image includes the requested shape
+1. `import starchild`
+2. Use method `starchild.run_evaluation` with two arguments: a) requested shape string* and b) test image local file path. It will return `True` or `False` depending on whether it thinks the image includes the requested shape
 
 *) Shape should be one of `r`, `s` or `t` strings (representing "round", "square" and "triangle" shapes)
 
