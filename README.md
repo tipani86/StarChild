@@ -1,25 +1,42 @@
-# StarChild / 星星的孩子
+# 星星的孩子
 
-Project that is a demo for creating a plaything for autistic children, made for a PaddlePaddle/Wechaty/Mixlab contest.
+孤独症儿童是目前常常被忽视的一类群体。他们有着类似性格内向的特征，实际却受着广泛性发育障碍的折磨。
 
-For more background info, please refer [here](https://www.linkedin.com/pulse/part-1-baby-steps-applied-computer-vision-training-autistic-pan).
+### 项目背景
 
-Usage: `python starchild [image directory]`
+这类儿童在与人交往时存在着沟通障碍，其特点表现在：
 
-The repo includes some test images under the `test` directory, you can try with them.
+- 社交交流差，互动障碍明显
+- 认知能力有限，被动认知
+- 兴趣狭窄，重复刻板，缺乏变化和想象力
+- 固有行为习惯和行为方式，难以适应新环境
 
-## Import Usage
+他们的这些症状在经过培训后往往可以得到改善，但却不能完全根治。我们应该更加关注这类群体的需求，为他们提供更多的关爱。
 
-Use below method if you are packaging the core codes as part of an external UX element:
+目前常用的教学方法为ABA应用行为分析，针对以下两方面能力进行培养：
 
-1. `import starchild`
-2. Use method `starchild.run_evaluation` with two arguments: a) requested shape string* and b) test image local file path. It will return `True` or `False` depending on whether it thinks the image includes the requested shape
+- 感知能力
+- 思维运用能力
 
-*) Shape should be one of `r`, `s` or `t` strings (representing "round", "square" and "triangle" shapes)
+具体训练内容有：
 
-Example code snippet in python:
+- 物品归类
+- 指令动作
+- 寻找丢失物
+- 记事能力
+- 请求帮助
+- 利用所学
 
-    test_image_path = "/home/path/to/image.jpg"
-    test_shape = random.choice(["r", "s", "t"])
-    res = run_evaluation(test_shape, test_image_path)
-    print("Random shape: {}, test image: {}, match: {}".format(test_shape, test_image_path, res))
+### 游戏玩法
+
+出于对通用性设计的考虑，我们选择了同样适用于普通儿童教育的认知学提高角度进行以下设计：
+
+1. 从三种基本图形（圆，正方，正三角）中随机抽取，机器人动图展示并以抽奖形式定格其中一种图形
+2. 用户根据收到的图形拍取其认为相似的真实物体发送给机器人
+3. 收到回复后机器人开始进行判断，根据图片匹配度提供回复
+4. 用户选择结束游戏/再来一局
+
+儿童根据所收获的星星可以兑换更多图形模板进行后续的匹配度游戏，也可以在社区与其他小朋友进行PK。
+
+## 技术文档
+
