@@ -31,7 +31,7 @@
 
 ![ezgif-1-7605f492f820](https://user-images.githubusercontent.com/60060750/128638569-64e972c9-03f1-4cf9-a864-ada875d4d075.gif)
 
-观看完整版[B站视频](https://www.bilibili.com/video/BV1hM4y157e3)
+(观看完整版[B站视频](https://www.bilibili.com/video/BV1hM4y157e3))
 
 出于对通用性设计的考虑，我们选择了同样适用于普通儿童教育的认知学提高角度进行以下设计：
 
