@@ -1,5 +1,9 @@
 # 星星的孩子
 
+![ezgif-1-7605f492f820](https://user-images.githubusercontent.com/60060750/128638569-64e972c9-03f1-4cf9-a864-ada875d4d075.gif)
+
+观看完整版[B站视频](https://www.bilibili.com/video/BV1hM4y157e3)
+
 孤独症儿童是目前常常被忽视的一类群体。他们有着类似性格内向的特征，实际却受着广泛性发育障碍的折磨。
 
 ### 项目背景
@@ -40,3 +44,4 @@
 
 ## 技术文档
 
+ToDo: one-line startup command, but core codes are under `/Wechaty` and `/CVModule` subdirectories for reviewing.
