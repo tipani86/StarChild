@@ -1,0 +1,21 @@
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\bin\Debug\netstandard2.1\Wechaty.Module.EventEmitter.deps.json
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\bin\Debug\netstandard2.1\Wechaty.Module.EventEmitter.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\bin\Debug\netstandard2.1\Wechaty.Module.EventEmitter.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\bin\Debug\netstandard2.1\Wechaty.Module.EventEmitter.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\obj\Debug\netstandard2.1\Wechaty.Module.EventEmitter.AssemblyInfoInputs.cache
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\obj\Debug\netstandard2.1\Wechaty.Module.EventEmitter.AssemblyInfo.cs
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\obj\Debug\netstandard2.1\Wechaty.Module.EventEmitter.csproj.CoreCompileInputs.cache
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\obj\Debug\netstandard2.1\Wechaty.Module.EventEmitter.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\obj\Debug\netstandard2.1\Wechaty.Module.EventEmitter.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\obj\Debug\netstandard2.1\Wechaty.Module.EventEmitter.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\obj\Debug\netstandard2.1\Wechaty.Module.EventEmitter.csproj.AssemblyReference.cache
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\bin\Debug\netstandard2.1\Wechaty.Module.EventEmitter.deps.json
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\bin\Debug\netstandard2.1\Wechaty.Module.EventEmitter.dll
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\bin\Debug\netstandard2.1\Wechaty.Module.EventEmitter.pdb
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\bin\Debug\netstandard2.1\Wechaty.Module.EventEmitter.xml
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\obj\Debug\netstandard2.1\Wechaty.Module.EventEmitter.AssemblyInfoInputs.cache
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\obj\Debug\netstandard2.1\Wechaty.Module.EventEmitter.AssemblyInfo.cs
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\obj\Debug\netstandard2.1\Wechaty.Module.EventEmitter.csproj.CoreCompileInputs.cache
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\obj\Debug\netstandard2.1\Wechaty.Module.EventEmitter.dll
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\obj\Debug\netstandard2.1\Wechaty.Module.EventEmitter.xml
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.EventEmitter\obj\Debug\netstandard2.1\Wechaty.Module.EventEmitter.pdb

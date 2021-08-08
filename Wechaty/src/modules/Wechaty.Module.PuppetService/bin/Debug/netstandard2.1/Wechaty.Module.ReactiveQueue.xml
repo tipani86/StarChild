@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wechaty.Module.ReactiveQueue</name>
+    </assembly>
+    <members>
+        <member name="T:Wechaty.Module.ReactiveQueue.ThrottleQueue`1">
+            <summary>
+            Throttle Queue
+            </summary>
+            <typeparam name="TElement"></typeparam>
+        </member>
+        <member name="M:Wechaty.Module.ReactiveQueue.ThrottleQueue`1.#ctor(System.TimeSpan)">
+            <summary>
+            Throttle Queue ctor.
+            </summary>
+            <param name="period">delay</param>
+        </member>
+        <member name="M:Wechaty.Module.ReactiveQueue.ThrottleQueue`1.SubscribeCore(System.IObserver{`0})">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.ReactiveQueue.ThrottleQueue`1.OnNext(`0)">
+            <summary>
+            Notifies all subscribed observers about the arrival of the specified element in the sequence.
+            </summary>
+            <param name="element"></param>
+        </member>
+        <member name="M:Wechaty.Module.ReactiveQueue.ThrottleQueue`1.OnCompleted">
+            <summary>
+            Notifies all subscribed observers about the end of the sequence.
+            </summary>
+        </member>
+    </members>
+</doc>

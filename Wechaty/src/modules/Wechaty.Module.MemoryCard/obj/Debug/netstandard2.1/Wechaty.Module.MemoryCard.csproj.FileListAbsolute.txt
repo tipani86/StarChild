@@ -1,0 +1,21 @@
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\bin\Debug\netstandard2.1\Wechaty.Module.MemoryCard.deps.json
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\bin\Debug\netstandard2.1\Wechaty.Module.MemoryCard.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\bin\Debug\netstandard2.1\Wechaty.Module.MemoryCard.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\bin\Debug\netstandard2.1\Wechaty.Module.MemoryCard.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\obj\Debug\netstandard2.1\Wechaty.Module.MemoryCard.csproj.AssemblyReference.cache
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\obj\Debug\netstandard2.1\Wechaty.Module.MemoryCard.AssemblyInfoInputs.cache
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\obj\Debug\netstandard2.1\Wechaty.Module.MemoryCard.AssemblyInfo.cs
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\obj\Debug\netstandard2.1\Wechaty.Module.MemoryCard.csproj.CoreCompileInputs.cache
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\obj\Debug\netstandard2.1\Wechaty.Module.MemoryCard.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\obj\Debug\netstandard2.1\Wechaty.Module.MemoryCard.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\obj\Debug\netstandard2.1\Wechaty.Module.MemoryCard.pdb
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\bin\Debug\netstandard2.1\Wechaty.Module.MemoryCard.deps.json
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\bin\Debug\netstandard2.1\Wechaty.Module.MemoryCard.dll
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\bin\Debug\netstandard2.1\Wechaty.Module.MemoryCard.pdb
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\bin\Debug\netstandard2.1\Wechaty.Module.MemoryCard.xml
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\obj\Debug\netstandard2.1\Wechaty.Module.MemoryCard.AssemblyInfoInputs.cache
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\obj\Debug\netstandard2.1\Wechaty.Module.MemoryCard.AssemblyInfo.cs
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\obj\Debug\netstandard2.1\Wechaty.Module.MemoryCard.csproj.CoreCompileInputs.cache
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\obj\Debug\netstandard2.1\Wechaty.Module.MemoryCard.dll
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\obj\Debug\netstandard2.1\Wechaty.Module.MemoryCard.xml
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.MemoryCard\obj\Debug\netstandard2.1\Wechaty.Module.MemoryCard.pdb

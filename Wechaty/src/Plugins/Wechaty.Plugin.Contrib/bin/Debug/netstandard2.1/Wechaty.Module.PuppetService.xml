@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wechaty.Module.PuppetService</name>
+    </assembly>
+    <members>
+        <member name="F:Wechaty.Module.PuppetService.GrpcPuppet._keepAliveTimeoutMs">
+            <summary>
+            This channel argument controls the amount of time (in milliseconds) the sender of the keepalive ping waits for an acknowledgement.
+            If it does not receive an acknowledgment within this time, it will close the connection.
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.PuppetService.GrpcPuppet.GRPCReconnectionCount">
+            <summary>
+            GRPC  重连次数，超过该次数则放弃重连
+            </summary>
+        </member>
+        <member name="M:Wechaty.Module.PuppetService.GrpcPuppet.DiscoverHostieIp(System.String)">
+            <summary>
+            发现 hostie gateway 对应的服务是否能能访问
+            </summary>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.PuppetService.GrpcPuppet.StartGrpcClient">
+            <summary>
+            初始化 Grpc连接
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.PuppetService.GrpcPuppet.StopGrpcClient">
+            <summary>
+            关闭Grpc连接
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.PuppetService.GrpcPuppet.StartGrpcStreamAsync">
+            <summary>
+            双向数据流事件处理
+            </summary>
+        </member>
+        <member name="M:Wechaty.Module.PuppetService.GrpcPuppet.OnGrpcStreamEvent(github.wechaty.grpc.puppet.EventResponse)">
+            <summary>
+            
+            </summary>
+            <param name="event"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

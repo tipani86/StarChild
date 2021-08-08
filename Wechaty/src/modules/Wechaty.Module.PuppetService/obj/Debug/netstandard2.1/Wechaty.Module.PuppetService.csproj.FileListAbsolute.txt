@@ -1,0 +1,66 @@
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.PuppetService.deps.json
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.PuppetService.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.PuppetService.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.PuppetService.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Common.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.EventEmitter.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.FileBox.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.MemoryCard.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Puppet.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.ReactiveQueue.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Watchdog.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Puppet.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Puppet.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Common.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Common.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.EventEmitter.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.EventEmitter.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.FileBox.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.FileBox.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.MemoryCard.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.MemoryCard.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.ReactiveQueue.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.ReactiveQueue.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Watchdog.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Watchdog.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.csproj.AssemblyReference.cache
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.AssemblyInfoInputs.cache
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.AssemblyInfo.cs
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.csproj.CoreCompileInputs.cache
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.csproj.CopyComplete
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.pdb
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.csproj.AssemblyReference.cache
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.AssemblyInfoInputs.cache
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.AssemblyInfo.cs
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.csproj.CoreCompileInputs.cache
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.dll
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.xml
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.pdb
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.PuppetService.deps.json
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.PuppetService.dll
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.PuppetService.pdb
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.PuppetService.xml
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Common.dll
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.EventEmitter.dll
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.FileBox.dll
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.MemoryCard.dll
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Puppet.dll
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.ReactiveQueue.dll
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Watchdog.dll
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Puppet.pdb
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Puppet.xml
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Common.pdb
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Common.xml
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.EventEmitter.pdb
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.EventEmitter.xml
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.FileBox.pdb
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.FileBox.xml
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.MemoryCard.pdb
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.MemoryCard.xml
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.ReactiveQueue.pdb
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.ReactiveQueue.xml
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Watchdog.pdb
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\bin\Debug\netstandard2.1\Wechaty.Module.Watchdog.xml
+D:\dotnet-wechaty-master\src\modules\Wechaty.Module.PuppetService\obj\Debug\netstandard2.1\Wechaty.Module.PuppetService.csproj.CopyComplete

@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.MemoryCard\\Wechaty.Module.MemoryCard.csproj": {}
+  },
+  "projects": {
+    "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.MemoryCard\\Wechaty.Module.MemoryCard.csproj": {
+      "version": "0.1.6",
+      "restore": {
+        "projectUniqueName": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.MemoryCard\\Wechaty.Module.MemoryCard.csproj",
+        "projectName": "Wechaty.Module.MemoryCard",
+        "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.MemoryCard\\Wechaty.Module.MemoryCard.csproj",
+        "packagesPath": "C:\\Users\\Bruce Qiu\\.nuget\\packages\\",
+        "outputPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.MemoryCard\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruce Qiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.3.111.27, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

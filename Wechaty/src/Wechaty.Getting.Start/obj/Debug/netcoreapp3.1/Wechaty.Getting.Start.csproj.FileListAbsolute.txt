@@ -1,0 +1,364 @@
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Getting.Start.exe
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Getting.Start.deps.json
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Getting.Start.runtimeconfig.json
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Getting.Start.runtimeconfig.dev.json
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Getting.Start.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Getting.Start.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Getting.Start.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\AWSSDK.S3.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Grpc.Core.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventLog.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventSource.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\MimeMapping.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Context.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Coordination.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Interop.WaitHandles.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Oop.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Tasks.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.Cancellation.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.Collections.Deque.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.Disposables.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\OpenGraphNet.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Polly.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\QRCoder.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Reflection.Metadata.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Grpc.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\linux\native\libgrpc_csharp_ext.x64.so
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\linux\native\libgrpc_csharp_ext.x86.so
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\osx\native\libgrpc_csharp_ext.x64.dylib
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\osx\native\libgrpc_csharp_ext.x86.dylib
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\native\grpc_csharp_ext.x64.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\native\grpc_csharp_ext.x86.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Reactive.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Common.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.EventEmitter.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.FileBox.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.MemoryCard.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Puppet.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.PuppetService.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.ReactiveQueue.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Watchdog.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Plugin.Contrib.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Plugin.Contrib.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Plugin.Contrib.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Common.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Common.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.EventEmitter.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.EventEmitter.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.FileBox.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.FileBox.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.MemoryCard.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.MemoryCard.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Puppet.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Puppet.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.PuppetService.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.PuppetService.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.ReactiveQueue.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.ReactiveQueue.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Watchdog.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Watchdog.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Reactive.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.csproj.AssemblyReference.cache
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.AssemblyInfoInputs.cache
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.AssemblyInfo.cs
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.csproj.CoreCompileInputs.cache
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.csproj.CopyComplete
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.xml
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.pdb
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.genruntimeconfig.cache
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\TencentCloudCommon.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\TencentCloudNlp.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Dynamic.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Scripting.Metadata.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Scripting.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\IronPython.Modules.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\IronPython.SQLite.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\IronPython.Wpf.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\IronPython.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\README.md
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\round.png
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\run_test.py
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\square.png
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\other\unknown01.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\other\unknown02.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\round\round01.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\round\round02.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\round\round03.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\round\round04.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\round\round05.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\round\round06.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\round\round07.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\square\square01.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\square\square02.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\square\square03.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\square\square04.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\square\square05.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\square\square06.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\square\square07.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\triangle\triangle01.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\triangle\triangle02.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\triangle\triangle03.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\triangle\triangle04.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\triangle\triangle05.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\triangle\triangle06.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\triangle\triangle07.jpg
+C:\Users\Bruce Qiu\Downloads\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\triangle.png
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\appsettings.json
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\README.md
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\round.png
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\run_test.py
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\square.png
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\other\unknown01.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\other\unknown02.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\round\round01.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\round\round02.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\round\round03.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\round\round04.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\round\round05.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\round\round06.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\round\round07.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\square\square01.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\square\square02.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\square\square03.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\square\square04.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\square\square05.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\square\square06.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\square\square07.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\triangle\triangle01.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\triangle\triangle02.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\triangle\triangle03.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\triangle\triangle04.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\triangle\triangle05.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\triangle\triangle06.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\test\triangle\triangle07.jpg
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Scripts\starChild\triangle.png
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Getting.Start.exe
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Getting.Start.deps.json
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Getting.Start.runtimeconfig.json
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Getting.Start.runtimeconfig.dev.json
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Getting.Start.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Getting.Start.pdb
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Getting.Start.xml
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\AWSSDK.S3.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Dynamic.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Scripting.Metadata.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Scripting.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Grpc.Core.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\IronPython.Modules.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\IronPython.SQLite.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\IronPython.Wpf.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\IronPython.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Debug.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventLog.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.EventSource.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\MimeMapping.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Context.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Coordination.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Interop.WaitHandles.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Oop.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.AsyncEx.Tasks.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.Cancellation.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.Collections.Deque.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Nito.Disposables.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\OpenGraphNet.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Polly.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\QRCoder.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Serilog.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Serilog.Sinks.File.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Reflection.Metadata.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\TencentCloudCommon.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\TencentCloudNlp.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Grpc.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\linux\native\libgrpc_csharp_ext.x64.so
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\linux\native\libgrpc_csharp_ext.x86.so
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\osx\native\libgrpc_csharp_ext.x64.dylib
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\osx\native\libgrpc_csharp_ext.x86.dylib
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\native\grpc_csharp_ext.x64.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\native\grpc_csharp_ext.x86.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Reactive.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Common.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.EventEmitter.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.FileBox.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.MemoryCard.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Puppet.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.PuppetService.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.ReactiveQueue.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Watchdog.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Plugin.Contrib.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Plugin.Contrib.pdb
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Plugin.Contrib.xml
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.pdb
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.xml
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Common.pdb
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Common.xml
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.EventEmitter.pdb
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.EventEmitter.xml
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.FileBox.pdb
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.FileBox.xml
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.MemoryCard.pdb
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.MemoryCard.xml
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Puppet.pdb
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Puppet.xml
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.PuppetService.pdb
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.PuppetService.xml
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.ReactiveQueue.pdb
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.ReactiveQueue.xml
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Watchdog.pdb
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\Wechaty.Module.Watchdog.xml
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\bin\Debug\netcoreapp3.1\System.Reactive.xml
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.csproj.AssemblyReference.cache
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.AssemblyInfoInputs.cache
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.AssemblyInfo.cs
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.csproj.CoreCompileInputs.cache
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.csproj.CopyComplete
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.dll
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.xml
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.pdb
+D:\dotnet-wechaty-master\src\Wechaty.Getting.Start\obj\Debug\netcoreapp3.1\Wechaty.Getting.Start.genruntimeconfig.cache

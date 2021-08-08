@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wechaty.Module.Common</name>
+    </assembly>
+    <members>
+        <member name="T:Wechaty.Module.Common.Constants">
+            <summary>
+            常量
+            </summary>
+        </member>
+        <member name="T:Wechaty.Module.Common.Constants.EventIds">
+            <summary>
+            事件id
+            </summary>
+        </member>
+        <member name="T:Wechaty.Module.Common.DatetimeExtensions">
+            <summary>
+            extensions for <see cref="T:System.DateTime"/>
+            </summary>
+        </member>
+        <member name="M:Wechaty.Module.Common.DatetimeExtensions.GetUnixEpoch(System.DateTime)">
+            <summary>
+            Unix时间戳(秒)
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.Common.DatetimeExtensions.GetUnixEpochMillisecond(System.DateTime)">
+            <summary>
+            Unix时间戳(毫秒)
+            </summary>
+            <param name="dateTime"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.Common.DatetimeExtensions.TimestampToDateTime(System.Int64)">
+            <summary>
+            Unix timstamp to DateTime, support second or millisecond
+            </summary>
+            <param name="timestamp"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Wechaty.Module.Common.EnumExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Wechaty.Module.Common.EnumExtensions.GetAttributes``2(``0)">
+            <summary>
+            get <typeparamref name="TAttribute"/> attributes declared on <paramref name="this"/>
+            </summary>
+            <typeparam name="TEnum"></typeparam>
+            <typeparam name="TAttribute"></typeparam>
+            <param name="this"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.Common.EnumExtensions.GetAttribute``2(``0,``1)">
+            <summary>
+            get <typeparamref name="TAttribute"/> attribute declared on <paramref name="this"/>
+            </summary>
+            <typeparam name="TEnum"></typeparam>
+            <typeparam name="TAttribute"></typeparam>
+            <param name="this"></param>
+            <param name="defaultAttribute"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.Common.EnumExtensions.GetEnumMemberAttribute``1(``0,System.Runtime.Serialization.EnumMemberAttribute)">
+            <summary>
+            get <see cref="T:System.Runtime.Serialization.EnumMemberAttribute"/> attribute declared on <paramref name="this"/>
+            </summary>
+            <typeparam name="TEnum"></typeparam>
+            <param name="this"></param>
+            <param name="defaultEnumMemberAttribute"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.Common.EnumExtensions.GetEnumMember``1(``0,System.String)">
+            <summary>
+            get <see cref="P:System.Runtime.Serialization.EnumMemberAttribute.Value"/> declared on <paramref name="this"/>
+            </summary>
+            <typeparam name="TEnum"></typeparam>
+            <param name="this"></param>
+            <param name="defaultEnumMember"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Wechaty.Module.Common.StringExtenions">
+            <summary>
+            extensions for <see cref="T:System.String"/>
+            </summary>
+        </member>
+        <member name="M:Wechaty.Module.Common.StringExtenions.GuardQrCodeValue(System.String)">
+            <summary>
+            make sure then length of qr code less than <see cref="F:Wechaty.Module.Common.StringExtenions.MAX_LEN"/>(7089)
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

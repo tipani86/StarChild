@@ -1,0 +1,1115 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wechaty</name>
+    </assembly>
+    <members>
+        <member name="T:Wechaty.Accessory`1">
+            <summary>
+            Accessory
+            </summary>
+            <typeparam name="TAccessory"></typeparam>
+        </member>
+        <member name="P:Wechaty.Accessory`1.Logger">
+            <summary>
+            logger
+            </summary>
+        </member>
+        <member name="M:Wechaty.Accessory`1.#ctor(Wechaty.Wechaty,Microsoft.Extensions.Logging.ILogger{`0},System.String)">
+            <summary>
+            init <see cref="T:Wechaty.Accessory`1"/>
+            </summary>
+            <param name="wechaty"></param>
+            <param name="logger"></param>
+            <param name="name"></param>
+        </member>
+        <member name="P:Wechaty.Accessory`1.WechatyInstance">
+            <summary>
+            instance of wechaty
+            </summary>
+        </member>
+        <member name="P:Wechaty.Accessory`1.Puppet">
+            <summary>
+            puppet of wechaty
+            </summary>
+        </member>
+        <member name="T:Wechaty.IAcceptable">
+            <summary>
+            有 可接受 行为
+            比如：接受添加好友申请，接受邀请入群
+            </summary>
+        </member>
+        <member name="M:Wechaty.IAcceptable.Accept">
+            <summary>
+            确认接受
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.IAcceptable.WechatyInstance">
+            <summary>
+            Weachty 实例
+            </summary>
+        </member>
+        <member name="T:Wechaty.IoEventName">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Wechaty.ISayable">
+            <summary>
+            可聊天
+            </summary>
+        </member>
+        <member name="P:Wechaty.ISayable.Id">
+            <summary>
+            对话Id
+            </summary>
+        </member>
+        <member name="P:Wechaty.ISayable.WechatyInstance">
+            <summary>
+            Wechaty 实例
+            </summary>
+        </member>
+        <member name="M:Wechaty.ISayable.Say(System.String,Wechaty.User.Contact[])">
+            <summary>
+            发送聊天
+            </summary>
+            <param name="text">发送文本</param>
+            <param name="replyTo">指定回复 @ 人员 </param>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.IWechatPlugin.Name">
+            <summary>
+            plugin name
+            </summary>
+        </member>
+        <member name="P:Wechaty.IWechatPlugin.Description">
+            <summary>
+            plugin description
+            </summary>
+        </member>
+        <member name="P:Wechaty.IWechatPlugin.Version">
+            <summary>
+            plugin verson
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Contact.Stranger">
+            <summary>
+            use <see cref="P:Wechaty.User.Contact.Friend"/> instead.
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Contact.Official">
+            <summary>
+            Check if it's a official account, should use <see cref="P:Wechaty.User.Contact.Type"/> instead
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Contact.Personal">
+            <summary>
+            Check if it's a personal account, should use <see cref="P:Wechaty.User.Contact.Type"/> instead
+            </summary>
+        </member>
+        <member name="T:Wechaty.User.ContactRepository">
+            <summary>
+            repository of <see cref="T:Wechaty.User.Contact"/>
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.ContactRepository.#ctor(Microsoft.Extensions.Logging.ILogger{Wechaty.User.Contact},Wechaty.Wechaty,Microsoft.Extensions.Logging.ILogger{Wechaty.User.ContactRepository},System.String)">
+            <summary>
+            init <see cref="T:Wechaty.User.ContactRepository"/>
+            </summary>
+            <param name="loggerForContact"></param>
+            <param name="wechaty"></param>
+            <param name="logger"></param>
+            <param name="name"></param>
+        </member>
+        <member name="P:Wechaty.User.ContactRepository.ToImplement">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.User.ContactRepository.New(System.String,Wechaty.Wechaty,Microsoft.Extensions.Logging.ILogger{Wechaty.User.Contact},System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Wechaty.User.ContactRepository`2">
+            <summary>
+            repository of <typeparamref name="TContact"/>
+            </summary>
+            <typeparam name="TContactRepository"></typeparam>
+            <typeparam name="TContact"></typeparam>
+        </member>
+        <member name="M:Wechaty.User.ContactRepository`2.#ctor(Microsoft.Extensions.Logging.ILogger{`1},Wechaty.Wechaty,Microsoft.Extensions.Logging.ILogger{`0},System.String)">
+            <summary>
+            init <see cref="T:Wechaty.User.ContactRepository`2"/>
+            </summary>
+            <param name="loggerForContact"></param>
+            <param name="wechaty"></param>
+            <param name="logger"></param>
+            <param name="name"></param>
+        </member>
+        <member name="P:Wechaty.User.ContactRepository`2._pool">
+            <summary>
+            cache for <typeparamref name="TContact"/>s
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.ContactRepository`2.Load(System.String)">
+            <summary>
+            load <typeparamref name="TContact"/> by <paramref name="id"/>
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.ContactRepository`2.Find(Wechaty.Module.Puppet.Schemas.ContactQueryFilter)">
+            <summary>
+            find <typeparamref name="TContact"/> by <paramref name="query"/>
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.ContactRepository`2.FindAll(Wechaty.Module.Puppet.Schemas.ContactQueryFilter)">
+            <summary>
+            find all <typeparamref name="TContact"/> by <paramref name="query"/> if <paramref name="query"/> is not null,
+            else find all <typeparamref name="TContact"/>s.
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.ContactRepository`2.Delete(`1)">
+            <summary>
+            delete <paramref name="contact"/>
+            </summary>
+            <param name="contact"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.ContactRepository`2.Tags">
+            <summary>
+            Get tags for all contact
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.ContactRepository`2.New(System.String,Wechaty.Wechaty,Microsoft.Extensions.Logging.ILogger{`1},System.String)">
+            <summary>
+            new <typeparamref name="TContact"/>
+            </summary>
+            <param name="id"></param>
+            <param name="wechaty"></param>
+            <param name="puppet"></param>
+            <param name="logger"></param>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.User.ContactSelfRepository.ToImplement">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.User.ContactSelfRepository.New(System.String,Wechaty.Wechaty,Microsoft.Extensions.Logging.ILogger{Wechaty.User.ContactSelf},System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Wechaty.User.Favorite">
+            <summary>
+            favorite
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.Favorite.#ctor(Wechaty.Wechaty,Microsoft.Extensions.Logging.ILogger{Wechaty.User.Favorite},System.String)">
+            <summary>
+            init <see cref="T:Wechaty.User.Favorite"/>
+            </summary>
+            <param name="wechaty"></param>
+            <param name="logger"></param>
+            <param name="name"></param>
+        </member>
+        <member name="P:Wechaty.User.Favorite.ToImplement">
+            <inheritdoc/>
+        </member>
+        <member name="T:Wechaty.User.FavoriteRepository">
+            <summary>
+            repository of <see cref="T:Wechaty.User.Favorite"/>
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.FavoriteRepository.List">
+            <summary>
+            not implemented
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.FavoriteRepository.Tags">
+            <summary>
+            not implemented
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Wechaty.User.Friendship">
+            <summary>
+            friendship
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Friendship.Payload">
+            <summary>
+            payload
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Friendship.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.Friendship.#ctor(System.String,Wechaty.Wechaty,Microsoft.Extensions.Logging.ILogger{Wechaty.User.Friendship},System.String)">
+            <summary>
+            init <see cref="T:Wechaty.User.Friendship"/>
+            </summary>
+            <param name="id"></param>
+            <param name="wechaty"></param>
+            <param name="logger"></param>
+            <param name="name"></param>
+        </member>
+        <member name="M:Wechaty.User.Friendship.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="P:Wechaty.User.Friendship.IsReady">
+            <summary>
+            check payload is ready?
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.Friendship.Ready">
+            <summary>
+            make sure payload is ready
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Friendship.Accept">
+            <summary>
+            accept friendship
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.User.Friendship.Hello">
+            <summary>
+            hello
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Friendship.Contact">
+            <summary>
+            contact
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Friendship.Type">
+            <summary>
+            firendship 
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.Friendship.ToJson">
+            <summary>
+            to json
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.User.Friendship.ToImplement">
+            <inheritdoc/>
+        </member>
+        <member name="T:Wechaty.User.FriendshipRepository">
+            <summary>
+            repository of <see cref="T:Wechaty.User.Friendship"/>
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.FriendshipRepository.#ctor(Microsoft.Extensions.Logging.ILogger{Wechaty.User.Friendship},Wechaty.Wechaty,Microsoft.Extensions.Logging.ILogger{Wechaty.User.FriendshipRepository},System.String)">
+            <summary>
+            init <see cref="T:Wechaty.User.FriendshipRepository"/>
+            </summary>
+            <param name="loggerForFriendship"></param>
+            <param name="wechaty"></param>
+            <param name="logger"></param>
+            <param name="name"></param>
+        </member>
+        <member name="M:Wechaty.User.FriendshipRepository.Load(System.String)">
+            <summary>
+            load <see cref="T:Wechaty.User.Friendship"/> by <paramref name="id"/>
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.FriendshipRepository.Search(Wechaty.Module.Puppet.Schemas.FriendshipSearchCondition)">
+            <summary>
+            search <see cref="T:Wechaty.User.Contact"/> by <paramref name="query"/>
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.FriendshipRepository.Send(Wechaty.User.Contact,System.String)">
+            <summary>
+            use <see cref="M:Wechaty.User.FriendshipRepository.Add(Wechaty.User.Contact,System.String)"/> instead
+            </summary>
+            <param name="contact"></param>
+            <param name="hello"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.FriendshipRepository.Add(Wechaty.User.Contact,System.String)">
+             <summary>
+             Send a Friend Request to a `contact` with message `hello`.
+            
+             The best practice is to send friend request once per minute.
+             Remeber not to do this too frequently, or your account may be blocked.
+             </summary>
+             <param name="contact">Send friend request to contact</param>
+             <param name="hello">The friend request content</param>
+             <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.FriendshipRepository.Delete(Wechaty.User.Contact)">
+            <summary>
+            delete <paramref name="contact"/> from friendship
+            </summary>
+            <param name="contact"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.FriendshipRepository.FromJson(System.String)">
+            <summary>
+            from json
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.FriendshipRepository.FromJson(Wechaty.Module.Puppet.Schemas.FriendshipPayload)">
+            <summary>
+            from json
+            </summary>
+            <param name="payload"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.User.FriendshipRepository.ToImplement">
+            <inheritdoc/>
+        </member>
+        <member name="T:Wechaty.User.ICoversation">
+            <summary>
+            conversation: contact/room
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.ICoversation.Id">
+            <summary>
+            id of conversation
+            </summary>
+        </member>
+        <member name="T:Wechaty.User.Image">
+            <summary>
+            image
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.Image.#ctor(System.String,Wechaty.Wechaty,Microsoft.Extensions.Logging.ILogger{Wechaty.User.Image},System.String)">
+            <summary>
+            init <see cref="T:Wechaty.User.Image"/>
+            </summary>
+            <param name="id"></param>
+            <param name="wechaty"></param>
+            <param name="logger"></param>
+            <param name="name"></param>
+        </member>
+        <member name="P:Wechaty.User.Image.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.Image.Thumbnail">
+            <summary>
+            thumbnail
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Image.HD">
+            <summary>
+            hd
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Image.Artwork">
+            <summary>
+            artwork
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.User.Image.ToImplement">
+            <inheritdoc/>
+        </member>
+        <member name="T:Wechaty.User.ImageRepository">
+            <summary>
+            repository of <see cref="T:Wechaty.User.Image"/>
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.ImageRepository.#ctor(Microsoft.Extensions.Logging.ILogger{Wechaty.User.Image},Wechaty.Wechaty,Microsoft.Extensions.Logging.ILogger{Wechaty.User.ImageRepository},System.String)">
+            <summary>
+            init <see cref="T:Wechaty.User.ImageRepository"/>
+            </summary>
+            <param name="loggerForImage"></param>
+            <param name="wechaty"></param>
+            <param name="logger"></param>
+            <param name="name"></param>
+        </member>
+        <member name="M:Wechaty.User.ImageRepository.Create(System.String)">
+            <summary>
+            create <see cref="T:Wechaty.User.Image"/> by <paramref name="id"/>
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.User.ImageRepository.ToImplement">
+            <inheritdoc/>
+        </member>
+        <member name="T:Wechaty.User.Message">
+            <summary>
+            message
+            </summary>
+        </member>
+        <member name="F:Wechaty.User.Message.AT_SEPARATOR">
+            <summary>
+            @someone seperator character
+            </summary>
+        </member>
+        <member name="F:Wechaty.User.Message.AT_SEPARATOR_REGEX">
+            <summary>
+            mobile: \u2005, PC、mac: \u0020
+            </summary>
+        </member>
+        <member name="F:Wechaty.User.Message._loadAll">
+            <summary>
+            load all
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Message.Payload">
+            <summary>
+            payload
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Message.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.Message.#ctor(System.String,Wechaty.Wechaty,Microsoft.Extensions.Logging.ILogger{Wechaty.User.Message},System.String)">
+            <summary>
+            init <see cref="T:Wechaty.User.Message"/>
+            </summary>
+            <param name="id"></param>
+            <param name="wechaty"></param>
+            <param name="logger"></param>
+            <param name="name"></param>
+        </member>
+        <member name="M:Wechaty.User.Message.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="P:Wechaty.User.Message.Talker">
+            <summary>
+            talker
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Message.Coversation">
+            <summary>
+            this message belong to which conversation
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Message.From">
+            <summary>
+            message sender
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Message.To">
+            <summary>
+            message receiver
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Message.Room">
+            <summary>
+            message from room
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Message.Content">
+            <summary>
+            use <see cref="P:Wechaty.User.Message.Text"/> instead.
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Message.Text">
+            <summary>
+            text presentation of this message
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.Message.ToRecalled">
+            <summary>
+            get recalled message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Message.Say(System.String,Wechaty.User.Contact[])">
+            <summary>
+            send <paramref name="text"/> to <see cref="P:Wechaty.User.Message.Room"/> or <see cref="P:Wechaty.User.Message.From"/>
+            and @<paramref name="replyTo"/>
+            </summary>
+            <param name="text"></param>
+            <param name="replyTo">@someone</param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Message.Say(Wechaty.User.Message)">
+            <summary>
+            send <paramref name="message"/> to <see cref="P:Wechaty.User.Message.Room"/> or <see cref="P:Wechaty.User.Message.From"/>
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Message.Say(Wechaty.User.Contact)">
+            <summary>
+            send <paramref name="contact"/> to <see cref="P:Wechaty.User.Message.Room"/> or <see cref="P:Wechaty.User.Message.From"/>
+            </summary>
+            <param name="contact"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Message.Say(Wechaty.Module.Filebox.FileBox)">
+            <summary>
+            send <paramref name="fileBox"/> to <see cref="P:Wechaty.User.Message.Room"/> or <see cref="P:Wechaty.User.Message.From"/>
+            </summary>
+            <param name="fileBox"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Message.Say(Wechaty.User.UrlLink)">
+            <summary>
+            send <paramref name="urlLink"/> to <see cref="P:Wechaty.User.Message.Room"/> or <see cref="P:Wechaty.User.Message.From"/>
+            </summary>
+            <param name="urlLink"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Message.Say(Wechaty.User.MiniProgram)">
+            <summary>
+            send <paramref name="miniProgram"/> to <see cref="P:Wechaty.User.Message.Room"/> or <see cref="P:Wechaty.User.Message.From"/>
+            </summary>
+            <param name="miniProgram"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.User.Message.Type">
+            <summary>
+            message type
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Message.Self">
+            <summary>
+            check is from self
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.Message.MentionList">
+            <summary>
+            Get message mentioned contactList.
+            Message event table as follows
+            |                                                                            | Web  |  Mac PC Client | iOS Mobile |  android Mobile |
+            | :---                                                                       | :--: |     :----:     |   :---:    |     :---:       |
+            | [You were mentioned] tip ([有人@我]的提示)                                  |  ✘   |        √       |     √      |       √         |
+            | Identify magic code (8197) by copy and paste in mobile                       |  ✘   |        √       |     √      |       ✘         |
+            | Identify magic code (8197) by programming                                  |  ✘   |        ✘       |     ✘      |       ✘         |
+            | Identify two contacts with the same roomAlias by [You were  mentioned] tip |  ✘   |        ✘       |     √      |       √         |
+            </summary>
+            <returns>
+            Return message mentioned contactList
+            </returns>
+        </member>
+        <member name="P:Wechaty.User.Message.Mention">
+            <summary>
+            mention() DEPRECATED. use mentionList() instead.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Message.MentionText">
+            <summary>
+            get metion text of this message
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.User.Message.Mentioned">
+            <summary>
+            mentioned() DEPRECATED. use mentionList() instead.
+            <see cref="M:Wechaty.User.Message.MentionList"/>
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.Message.MentionSelf">
+            <summary>
+            Check if a message is mention self.
+            </summary>
+            <returns>
+            Return `true` for mention me.
+            </returns>
+        </member>
+        <member name="P:Wechaty.User.Message.IsReady">
+            <summary>
+            check <see cref="P:Wechaty.User.Message.Payload"/> is ready
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Message.Ready">
+            <summary>
+            ready task
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.Message.Forward(Wechaty.User.ICoversation)">
+            <summary>
+            Forward the received message.
+            </summary>
+            <param name="to">
+            to Room or Contact
+            The recipient of the message, the room, or the contact
+            </param>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.User.Message.Date">
+            <summary>
+            Message sent date
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Message.Age">
+            <summary>
+            Returns the message age in seconds.
+            For example, the message is sent at time `8:43:01`,
+            and when we received it in Wechaty, the time is `8:43:15`,
+            then the age() will return `8:43:15 - 8:43:01 = 14 (seconds)`
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Message.File">
+            <summary>
+            use <see cref="M:Wechaty.User.Message.ToFileBox"/> instead
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.Message.ToFileBox">
+            <summary>
+            Extract the Media File from the Message, and put it into the FileBox.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Message.ToImage">
+            <summary>
+            Extract the Image File from the Message, so that we can use different image sizes.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Message.ToContact">
+            <summary>
+            Get Share Card of the Message
+            Extract the Contact Card from the Message, and encapsulate it into Contact class
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Message.ToUrlLink">
+            <summary>
+            convert to <see cref="T:Wechaty.User.UrlLink"/>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Message.ToMiniProgram">
+            <summary>
+            convert to <see cref="T:Wechaty.User.MiniProgram"/>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.User.Message.ToImplement">
+            <inheritdoc/>
+        </member>
+        <member name="T:Wechaty.User.MessageRepository">
+            <summary>
+            repository of <see cref="T:Wechaty.User.Message"/>
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.MessageRepository.#ctor(Microsoft.Extensions.Logging.ILogger{Wechaty.User.Message},Wechaty.Wechaty,Microsoft.Extensions.Logging.ILogger{Wechaty.User.MessageRepository},System.String)">
+            <summary>
+            init <see cref="T:Wechaty.User.MessageRepository"/>
+            </summary>
+            <param name="loggerForMessage"></param>
+            <param name="wechaty"></param>
+            <param name="logger"></param>
+            <param name="name"></param>
+        </member>
+        <member name="M:Wechaty.User.MessageRepository.Find(System.String)">
+            <summary>
+            find <see cref="T:Wechaty.User.Message"/> by <paramref name="query"/>
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.MessageRepository.Find(Wechaty.Module.Puppet.Schemas.MessageQueryFilter)">
+            <summary>
+            find <see cref="T:Wechaty.User.Message"/> by <paramref name="query"/>
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.MessageRepository.FindAll(Wechaty.Module.Puppet.Schemas.MessageQueryFilter)">
+            <summary>
+            find all <see cref="T:Wechaty.User.Message"/> by <paramref name="query"/> if <paramref name="query"/> is not null, otherwise find all <see cref="T:Wechaty.User.Message"/>
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.MessageRepository.Load(System.String)">
+            <summary>
+            load <see cref="T:Wechaty.User.Message"/> by <paramref name="id"/>
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.MessageRepository.Create(System.String)">
+            <summary>
+            use <see cref="M:Wechaty.User.MessageRepository.Load(System.String)"/> instead.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.User.MessageRepository.ToImplement">
+            <inheritdoc/>
+        </member>
+        <member name="T:Wechaty.User.MiniProgram">
+            <summary>
+            mini program
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.MiniProgram.Payload">
+            <summary>
+            payload
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.MiniProgram.#ctor(Wechaty.Module.Puppet.Schemas.MiniProgramPayload)">
+            <summary>
+            init <see cref="T:Wechaty.User.MiniProgram"/> with payload
+            </summary>
+            <param name="payload"></param>
+        </member>
+        <member name="P:Wechaty.User.MiniProgram.Appid">
+            <summary>
+            appid
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.MiniProgram.Title">
+            <summary>
+            title
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.MiniProgram.PagePath">
+            <summary>
+            page path
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.MiniProgram.Username">
+            <summary>
+            username
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.MiniProgram.Description">
+            <summary>
+            description
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.MiniProgram.ThumbUrl">
+            <summary>
+            tumbnail url
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.MiniProgram.ThumbKey">
+            <summary>
+            thumbnal key
+            </summary>
+        </member>
+        <member name="T:Wechaty.User.MiniProgramRepository">
+            <summary>
+            repository of <see cref="T:Wechaty.User.MiniProgram"/>
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.MiniProgramRepository.Create">
+            <summary>
+            create <see cref="T:Wechaty.User.MiniProgram"/>, not implemented yet.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Wechaty.User.Room">
+            <summary>
+            room
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Room.Payload">
+            <summary>
+            payload
+            </summary>
+        </member>
+        <member name="P:Wechaty.User.Room.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.Room.#ctor(System.String,Wechaty.Wechaty,Microsoft.Extensions.Logging.ILogger{Wechaty.User.Room},System.String)">
+            <summary>
+            init <see cref="T:Wechaty.User.Room"/>
+            </summary>
+            <param name="id"></param>
+            <param name="wechaty"></param>
+            <param name="logger"></param>
+            <param name="name"></param>
+        </member>
+        <member name="M:Wechaty.User.Room.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.User.Room.Refresh">
+            <summary>
+            use <see cref="M:Wechaty.User.Room.Sync"/> instead
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Room.Sync">
+            <summary>
+            Force reload data for Room, Sync data from puppet API again.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Room.Ready(System.Boolean)">
+             <summary>
+             `ready()` is For FrameWork ONLY!
+            
+             Please not to use `ready()` at the user land.
+             If you want to sync data, use `sync()` instead.
+             </summary>
+             <param name="forceSync"></param>
+             <returns></returns>
+        </member>
+        <member name="P:Wechaty.User.Room.IsReady">
+            <summary>
+            is ready?
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.Room.TryLoad(System.String)">
+            <summary>
+            try load <see cref="T:Wechaty.User.Message"/> by <paramref name="msgId"/>
+            </summary>
+            <param name="msgId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Room.Say(System.String,Wechaty.User.Contact[])">
+            <summary>
+            send <paramref name="text"/> to this <see cref="T:Wechaty.User.Room"/> and @<paramref name="replyTo"/>.
+            </summary>
+            <param name="text"></param>
+            <param name="replyTo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Room.Say(Wechaty.User.Message)">
+            <summary>
+            send <paramref name="message"/> to this <see cref="T:Wechaty.User.Room"/>
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Room.Say(Wechaty.Module.Filebox.FileBox)">
+            <summary>
+            send <paramref name="file"/> to this <see cref="T:Wechaty.User.Room"/>
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Room.Say(Wechaty.User.UrlLink)">
+            <summary>
+            send <paramref name="url"/> to this <see cref="T:Wechaty.User.Room"/>
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Room.Say(Wechaty.User.MiniProgram)">
+            <summary>
+            send <paramref name="mini"/> to this <see cref="T:Wechaty.User.Room"/>
+            </summary>
+            <param name="mini"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Room.Say(Wechaty.User.Contact)">
+            <summary>
+            send <paramref name="contact"/> to this <see cref="T:Wechaty.User.Room"/>
+            </summary>
+            <param name="contact"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Room.EmitInvite(Wechaty.User.Contact,Wechaty.User.RoomInvitation)">
+            <summary>
+            emit <paramref name="invitation"/> from <paramref name="inviter"/>
+            </summary>
+            <param name="inviter"></param>
+            <param name="invitation"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Room.EmitLeave(System.Collections.Generic.IReadOnlyList{Wechaty.User.Contact},Wechaty.User.Contact,System.DateTime)">
+            <summary>
+            emit remove <paramref name="leaverList"/> from this <see cref="T:Wechaty.User.Room"/> at <paramref name="date"/>
+            </summary>
+            <param name="leaverList"></param>
+            <param name="remover"></param>
+            <param name="date"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Room.EmitMessage(Wechaty.User.Message)">
+            <summary>
+            emit receive <paramref name="message"/> at this <see cref="T:Wechaty.User.Room"/>
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.Room.EmitJoin(System.Collections.Generic.IReadOnlyList{Wechaty.User.Contact},Wechaty.User.Contact,System.DateTime)">
+            <summary>
+            emit <paramref name="inviter"/> invite <paramref name="inviteeList"/> to this <see cref="T:Wechaty.User.Room"/> at <paramref name="date"/>
+            </summary>
+            <param name="inviteeList"></param>
+            <param name="inviter"></param>
+            <param name="date"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Wechaty.User.RoomInvitation">
+            <summary>
+            accept room invitation
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.RoomInvitation.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.User.RoomInvitation.ToStringAsync">
+            <summary>
+            to string async
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.RoomInvitation.Accept">
+            <summary>
+            Accept Room Invitation
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.RoomInvitation.Inviter">
+            <summary>
+            Get the inviter from room invitation
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.RoomInvitation.Topic">
+            <summary>
+            Get the room topic from room invitation
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.User.RoomInvitation.RoomTopic">
+            <summary>
+            use topic() instead
+            </summary>
+        </member>
+        <member name="M:Wechaty.User.RoomInvitation.MemberCount">
+            <summary>
+            member count of current <see cref="T:Wechaty.User.RoomInvitation"/>
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.User.RoomInvitation.Age">
+            <summary>
+            Returns the roopm invitation age in seconds.
+            For example, the invitation is sent at time `8:43:01`,
+            and when we received it in Wechaty, the time is `8:43:15`,
+            then the age() will return `8:43:15 - 8:43:01 = 14 (seconds)`
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Wechaty.WechatPlugin">
+            <summary>
+            wechat plugin delegate
+            </summary>
+            <param name="bot"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Wechaty.Wechaty">
+            <summary>
+            wechaty
+            </summary>
+        </member>
+        <member name="P:Wechaty.Wechaty.State">
+            <summary>
+            state
+            </summary>
+        </member>
+        <member name="F:Wechaty.Wechaty._memory">
+            <summary>
+             Automatic plug-in registration
+            </summary>
+        </member>
+        <member name="P:Wechaty.Wechaty.Puppet">
+            <summary>
+            puppet of wechaty
+            </summary>
+        </member>
+        <member name="P:Wechaty.Wechaty.Contact">
+            <summary>
+            repository of <see cref="T:Wechaty.User.Contact"/>
+            </summary>
+        </member>
+        <member name="P:Wechaty.Wechaty.Tag">
+            <summary>
+            repository of <see cref="T:Wechaty.User.Tag"/>
+            </summary>
+        </member>
+        <member name="P:Wechaty.Wechaty.ContactSelf">
+            <summary>
+            repository of <see cref="T:Wechaty.User.ContactSelf"/>
+            </summary>
+        </member>
+        <member name="P:Wechaty.Wechaty.Friendship">
+            <summary>
+            repository of <see cref="T:Wechaty.User.Friendship"/>
+            </summary>
+        </member>
+        <member name="P:Wechaty.Wechaty.Message">
+            <summary>
+            repository of <see cref="T:Wechaty.User.Message"/>
+            </summary>
+        </member>
+        <member name="P:Wechaty.Wechaty.Image">
+            <summary>
+            repository of <see cref="T:Wechaty.User.Image"/>
+            </summary>
+        </member>
+        <member name="P:Wechaty.Wechaty.RoomInvitation">
+            <summary>
+            repository of <see cref="T:Wechaty.User.RoomInvitation"/>
+            </summary>
+        </member>
+        <member name="P:Wechaty.Wechaty.Room">
+            <summary>
+            repository of <see cref="T:Wechaty.User.Room"/>
+            </summary>
+        </member>
+        <member name="P:Wechaty.Wechaty.UrlLink">
+            <summary>
+            repository of <see cref="T:Wechaty.User.UrlLink"/>
+            </summary>
+        </member>
+        <member name="P:Wechaty.Wechaty.MiniProgram">
+            <summary>
+            repository of <see cref="T:Wechaty.User.MiniProgram"/>
+            </summary>
+        </member>
+        <member name="M:Wechaty.Wechaty.GloabalAdd(Wechaty.IWechatPlugin[])">
+            <summary>
+            add plugin
+            </summary>
+            <param name="plugins"></param>
+        </member>
+        <member name="P:Wechaty.Wechaty.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:Wechaty.Wechaty.WechatyInstance">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Wechaty.#ctor(Wechaty.Module.Puppet.Schemas.PuppetOptions)">
+            <summary>
+            init <see cref="T:Wechaty.Wechaty"/> with <see cref="T:Wechaty.WechatyPuppetOptions"/>
+            </summary>
+            <param name="options"></param>
+            <param name="loggerFactory"></param>
+        </member>
+        <member name="M:Wechaty.Wechaty.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="P:Wechaty.Wechaty.Name">
+            <summary>
+            name
+            </summary>
+        </member>
+        <member name="P:Wechaty.WechatyPuppetOptions.Profile">
+            <summary>
+            DEPRECATED: use name instead
+            </summary>
+        </member>
+    </members>
+</doc>

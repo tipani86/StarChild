@@ -1,0 +1,341 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wechaty.Module.Puppet</name>
+    </assembly>
+    <members>
+        <member name="P:Wechaty.Module.Puppet.Schemas.FriendshipPayload.Timestamp">
+            <summary>
+            Unix Timestamp, in seconds or milliseconds
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.WechatMessageType.Transfer">
+            <summary>
+            转账
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.WechatMessageType.RedEnvelope">
+            <summary>
+            红包
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.WechatMessageType.MiniProgram">
+            <summary>
+            小程序
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.WechatMessageType.GroupInvite">
+            <summary>
+            群邀请
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.WechatMessageType.File">
+            <summary>
+            文件消息
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.WechatMessageType.Recalled">
+            <summary>
+            NOTIFY 服务通知
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.Puppet.Schemas.MessagePayload.Id">
+            <summary>
+            use message id to get rawPayload to get those information when needed
+            contactId?    : string,        // Contact ShareCard
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.Puppet.Schemas.MessagePayload.Timestamp">
+            <summary>
+            Huan(202001): we support both seconds and milliseconds in Wechaty now.
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.Puppet.Schemas.MiniProgramPayload.Appid">
+            <summary>
+            optional, appid, get from wechat (mp.weixin.qq.com)
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.Puppet.Schemas.MiniProgramPayload.Description">
+            <summary>
+            optional, mini program title
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.Puppet.Schemas.MiniProgramPayload.PagePath">
+            <summary>
+            optional, mini program page path
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.Puppet.Schemas.MiniProgramPayload.IconUrl">
+            <summary>
+            optional, mini program icon url
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.Puppet.Schemas.MiniProgramPayload.ShareId">
+            <summary>
+            optional, the unique userId for who share this mini program
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.Puppet.Schemas.MiniProgramPayload.ThumbUrl">
+            <summary>
+            optional, default picture, convert to thumbnail
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.Puppet.Schemas.MiniProgramPayload.Title">
+            <summary>
+            optional, mini program title
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.Puppet.Schemas.MiniProgramPayload.Username">
+            <summary>
+            original ID, get from wechat (mp.weixin.qq.com)
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.Puppet.Schemas.MiniProgramPayload.ThumbKey">
+            <summary>
+            original, thumbnailurl and thumbkey will make the headphoto of mini-program better
+            </summary>
+        </member>
+        <member name="T:Wechaty.Module.Puppet.Schemas.ChatEventName">
+            <summary>
+            snake case
+            string to enum
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.ChatEventName.Friendship">
+            <summary>
+            receive a friend request
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.ChatEventName.Login">
+            <summary>
+            puppet had logined
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.ChatEventName.Logout">
+            <summary>
+            puppet had logouted
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.ChatEventName.Message">
+            <summary>
+            received a new message
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.ChatEventName.RoomInvite">
+            <summary>
+            received a room invitation
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.ChatEventName.RoomJoin">
+            <summary>
+            be added to a room
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.ChatEventName.RoomLeave">
+            <summary>
+            leave or be removed from a room
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.ChatEventName.RoomTopic">
+            <summary>
+            room topic had been changed
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.ChatEventName.Scan">
+            <summary>
+            a QR Code scan is required
+            </summary>
+        </member>
+        <member name="T:Wechaty.Module.Puppet.Schemas.PuppetEvent">
+            <summary>
+            snake case
+            string to enum
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.PuppetEvent.Dong">
+            <summary>
+            emit this event if you received a ding() call
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.PuppetEvent.Error">
+            <summary>
+            emit an Error instance when there's any Error need to report to Wechaty
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.PuppetEvent.Friendship">
+            <summary>
+            receive a friend request
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.PuppetEvent.Heartbeat">
+            <summary>
+            Huan(202003): rename `watchdog` to `heartbeat`
+            watchdog  : 'feed the watchdog by emit this event',
+            feed the watchdog by emit this event
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.PuppetEvent.Login">
+            <summary>
+            puppet had logined
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.PuppetEvent.Logout">
+            <summary>
+            puppet had logouted
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.PuppetEvent.Message">
+            <summary>
+            received a new message
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.PuppetEvent.Ready">
+            <summary>
+            emit this event after the puppet is ready(you define it)
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.PuppetEvent.Reset">
+            <summary>
+            reset the puppet by emit this event
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.PuppetEvent.RoomInvite">
+            <summary>
+            received a room invitation
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.PuppetEvent.RoomJoin">
+            <summary>
+            be added to a room
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.PuppetEvent.RoomLeave">
+            <summary>
+            leave or be removed from a room
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.PuppetEvent.RoomTopic">
+            <summary>
+            room topic had been changed
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Puppet.Schemas.PuppetEvent.Scan">
+            <summary>
+            a QR Code scan is required
+            </summary>
+        </member>
+        <member name="T:Wechaty.Module.Puppet.Schemas.StringOrRegex">
+            <summary>
+            文本或正则表达式包装
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.Puppet.Schemas.StringOrRegex.Value">
+            <summary>
+            文本值
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.Puppet.Schemas.StringOrRegex.Regex">
+            <summary>
+            正则表达式
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.Puppet.Schemas.StringOrRegex.IsRegex">
+            <summary>
+            当前是否为正则表达式
+            </summary>
+        </member>
+        <member name="M:Wechaty.Module.Puppet.Schemas.StringOrRegex.op_Implicit(System.Text.RegularExpressions.Regex)~Wechaty.Module.Puppet.Schemas.StringOrRegex">
+            <summary>
+            将 正则表达 转化为一个 <see cref="T:Wechaty.Module.Puppet.Schemas.StringOrRegex"/> 实例
+            </summary>
+            <param name="value">正则表达式</param>
+        </member>
+        <member name="M:Wechaty.Module.Puppet.Schemas.StringOrRegex.op_Implicit(System.String)~Wechaty.Module.Puppet.Schemas.StringOrRegex">
+            <summary>
+            将 字符串 化为一个 <see cref="T:Wechaty.Module.Puppet.Schemas.StringOrRegex"/> 实例
+            </summary>
+            <param name="value">字符串</param>
+        </member>
+        <member name="M:Wechaty.Module.Puppet.WechatyPuppet.Ding(System.String)">
+            <summary>
+            Check whether the puppet is work property.
+            </summary>
+            <param name="data"></param>
+            <returns>`false` if something went wrong, else if everything is OK</returns>
+        </member>
+        <member name="M:Wechaty.Module.Puppet.WechatyPuppet.TagContactAdd(System.String,System.String)">
+            <summary>
+            add a tag for a Contact. Create it first if it not exist.
+            </summary>
+            <param name="tagId"></param>
+            <param name="contactId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.Puppet.WechatyPuppet.TagContactDelete(System.String)">
+            <summary>
+            delete a tag from Wechat
+            </summary>
+            <param name="tagId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.Puppet.WechatyPuppet.TagContactList(System.String)">
+            <summary>
+            get tags from a specific Contact
+            </summary>
+            <param name="contactId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.Puppet.WechatyPuppet.TagContactList">
+            <summary>
+            get tags from all Contacts
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.Puppet.WechatyPuppet.TagContactRemove(System.String,System.String)">
+            <summary>
+            remove a tag from the Contact
+            </summary>
+            <param name="tagId"></param>
+            <param name="contactId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.Puppet.WechatyPuppet.ContactValidate(System.String)">
+            <summary>
+            Check a Contact Id if it's still valid.
+            For example: talk to the server, and see if it should be deleted in the local cache.
+            </summary>
+            <param name="contactId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.Puppet.WechatyPuppet.GetFriendshipPayload(System.String)">
+            <summary>
+            Get and Set
+            </summary>
+            <param name="friendshipId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.Puppet.WechatyPuppet.GetRoomInvitationPayload(System.String)">
+            <summary>
+            get room inviatation payload 
+            </summary>
+            <param name="roomInvitationId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.Puppet.WechatyPuppet.SetRoomInvitationPayload(System.String,Wechaty.Module.Puppet.Schemas.RoomInvitationPayload)">
+            <summary>
+            set room inviatation payload
+            </summary>
+            <param name="roomInvitationId"></param>
+            <param name="newPayload"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.Puppet.WechatyPuppet.RoomValidate(System.String)">
+            <summary>
+            Check a Room Id if it's still valid.
+            For example: talk to the server, and see if it should be deleted in the local cache.
+            </summary>
+            <param name="roomId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

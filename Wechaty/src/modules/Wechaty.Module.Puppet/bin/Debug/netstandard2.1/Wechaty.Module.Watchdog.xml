@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wechaty.Module.Watchdog</name>
+    </assembly>
+    <members>
+        <member name="P:Wechaty.Module.Watchdog.WatchDogFood`2.Timeout">
+            <summary>
+            millisecond
+            </summary>
+        </member>
+    </members>
+</doc>

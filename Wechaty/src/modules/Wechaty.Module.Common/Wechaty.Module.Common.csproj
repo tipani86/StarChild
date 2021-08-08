@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>Wechaty.Module.Common</AssemblyName>
+    <RootNamespace>Wechaty.Module.Common</RootNamespace>
+  </PropertyGroup>
+  
+</Project>

@@ -1,0 +1,897 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\dotnet-wechaty-master\\src\\Wechaty.Getting.Start\\Wechaty.Getting.Start.csproj": {}
+  },
+  "projects": {
+    "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Common\\Wechaty.Module.Common.csproj": {
+      "version": "0.1.6",
+      "restore": {
+        "projectUniqueName": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Common\\Wechaty.Module.Common.csproj",
+        "projectName": "Wechaty.Module.Common",
+        "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Common\\Wechaty.Module.Common.csproj",
+        "packagesPath": "C:\\Users\\Bruce Qiu\\.nuget\\packages\\",
+        "outputPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruce Qiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.EventEmitter\\Wechaty.Module.EventEmitter.csproj": {
+      "version": "0.1.6",
+      "restore": {
+        "projectUniqueName": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.EventEmitter\\Wechaty.Module.EventEmitter.csproj",
+        "projectName": "Wechaty.Module.EventEmitter",
+        "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.EventEmitter\\Wechaty.Module.EventEmitter.csproj",
+        "packagesPath": "C:\\Users\\Bruce Qiu\\.nuget\\packages\\",
+        "outputPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.EventEmitter\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruce Qiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Bcl.HashCode": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.FileBox\\Wechaty.Module.FileBox.csproj": {
+      "version": "0.1.6",
+      "restore": {
+        "projectUniqueName": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.FileBox\\Wechaty.Module.FileBox.csproj",
+        "projectName": "Wechaty.Module.FileBox",
+        "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.FileBox\\Wechaty.Module.FileBox.csproj",
+        "packagesPath": "C:\\Users\\Bruce Qiu\\.nuget\\packages\\",
+        "outputPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.FileBox\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruce Qiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MimeMapping": {
+              "target": "Package",
+              "version": "[1.0.1.30, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.3.9, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.MemoryCard\\Wechaty.Module.MemoryCard.csproj": {
+      "version": "0.1.6",
+      "restore": {
+        "projectUniqueName": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.MemoryCard\\Wechaty.Module.MemoryCard.csproj",
+        "projectName": "Wechaty.Module.MemoryCard",
+        "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.MemoryCard\\Wechaty.Module.MemoryCard.csproj",
+        "packagesPath": "C:\\Users\\Bruce Qiu\\.nuget\\packages\\",
+        "outputPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.MemoryCard\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruce Qiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.3.111.27, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.PuppetService\\Wechaty.Module.PuppetService.csproj": {
+      "version": "0.1.6",
+      "restore": {
+        "projectUniqueName": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.PuppetService\\Wechaty.Module.PuppetService.csproj",
+        "projectName": "Wechaty.Module.PuppetService",
+        "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.PuppetService\\Wechaty.Module.PuppetService.csproj",
+        "packagesPath": "C:\\Users\\Bruce Qiu\\.nuget\\packages\\",
+        "outputPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.PuppetService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruce Qiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Puppet\\Wechaty.Module.Puppet.csproj": {
+                "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Puppet\\Wechaty.Module.Puppet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            },
+            "Wechaty.Grpc": {
+              "target": "Package",
+              "version": "[0.18.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Puppet\\Wechaty.Module.Puppet.csproj": {
+      "version": "0.1.6",
+      "restore": {
+        "projectUniqueName": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Puppet\\Wechaty.Module.Puppet.csproj",
+        "projectName": "Wechaty.Module.Puppet",
+        "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Puppet\\Wechaty.Module.Puppet.csproj",
+        "packagesPath": "C:\\Users\\Bruce Qiu\\.nuget\\packages\\",
+        "outputPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Puppet\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruce Qiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.FileBox\\Wechaty.Module.FileBox.csproj": {
+                "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.FileBox\\Wechaty.Module.FileBox.csproj"
+              },
+              "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.MemoryCard\\Wechaty.Module.MemoryCard.csproj": {
+                "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.MemoryCard\\Wechaty.Module.MemoryCard.csproj"
+              },
+              "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.ReactiveQueue\\Wechaty.Module.ReactiveQueue.csproj": {
+                "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.ReactiveQueue\\Wechaty.Module.ReactiveQueue.csproj"
+              },
+              "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Watchdog\\Wechaty.Module.Watchdog.csproj": {
+                "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Watchdog\\Wechaty.Module.Watchdog.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.ReactiveQueue\\Wechaty.Module.ReactiveQueue.csproj": {
+      "version": "0.1.6",
+      "restore": {
+        "projectUniqueName": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.ReactiveQueue\\Wechaty.Module.ReactiveQueue.csproj",
+        "projectName": "Wechaty.Module.ReactiveQueue",
+        "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.ReactiveQueue\\Wechaty.Module.ReactiveQueue.csproj",
+        "packagesPath": "C:\\Users\\Bruce Qiu\\.nuget\\packages\\",
+        "outputPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.ReactiveQueue\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruce Qiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Watchdog\\Wechaty.Module.Watchdog.csproj": {
+      "version": "0.1.6",
+      "restore": {
+        "projectUniqueName": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Watchdog\\Wechaty.Module.Watchdog.csproj",
+        "projectName": "Wechaty.Module.Watchdog",
+        "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Watchdog\\Wechaty.Module.Watchdog.csproj",
+        "packagesPath": "C:\\Users\\Bruce Qiu\\.nuget\\packages\\",
+        "outputPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Watchdog\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruce Qiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Common\\Wechaty.Module.Common.csproj": {
+                "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.Common\\Wechaty.Module.Common.csproj"
+              },
+              "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.EventEmitter\\Wechaty.Module.EventEmitter.csproj": {
+                "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.EventEmitter\\Wechaty.Module.EventEmitter.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dotnet-wechaty-master\\src\\Plugins\\Wechaty.Plugin.Contrib\\Wechaty.Plugin.Contrib.csproj": {
+      "version": "0.1.6",
+      "restore": {
+        "projectUniqueName": "D:\\dotnet-wechaty-master\\src\\Plugins\\Wechaty.Plugin.Contrib\\Wechaty.Plugin.Contrib.csproj",
+        "projectName": "Wechaty.Plugin.Contrib",
+        "projectPath": "D:\\dotnet-wechaty-master\\src\\Plugins\\Wechaty.Plugin.Contrib\\Wechaty.Plugin.Contrib.csproj",
+        "packagesPath": "C:\\Users\\Bruce Qiu\\.nuget\\packages\\",
+        "outputPath": "D:\\dotnet-wechaty-master\\src\\Plugins\\Wechaty.Plugin.Contrib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruce Qiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.EventEmitter\\Wechaty.Module.EventEmitter.csproj": {
+                "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.EventEmitter\\Wechaty.Module.EventEmitter.csproj"
+              },
+              "D:\\dotnet-wechaty-master\\src\\Wechaty\\Wechaty.csproj": {
+                "projectPath": "D:\\dotnet-wechaty-master\\src\\Wechaty\\Wechaty.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dotnet-wechaty-master\\src\\Wechaty.Getting.Start\\Wechaty.Getting.Start.csproj": {
+      "version": "0.1.6",
+      "restore": {
+        "projectUniqueName": "D:\\dotnet-wechaty-master\\src\\Wechaty.Getting.Start\\Wechaty.Getting.Start.csproj",
+        "projectName": "Wechaty.Getting.Start",
+        "projectPath": "D:\\dotnet-wechaty-master\\src\\Wechaty.Getting.Start\\Wechaty.Getting.Start.csproj",
+        "packagesPath": "C:\\Users\\Bruce Qiu\\.nuget\\packages\\",
+        "outputPath": "D:\\dotnet-wechaty-master\\src\\Wechaty.Getting.Start\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruce Qiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\dotnet-wechaty-master\\src\\Plugins\\Wechaty.Plugin.Contrib\\Wechaty.Plugin.Contrib.csproj": {
+                "projectPath": "D:\\dotnet-wechaty-master\\src\\Plugins\\Wechaty.Plugin.Contrib\\Wechaty.Plugin.Contrib.csproj"
+              },
+              "D:\\dotnet-wechaty-master\\src\\Wechaty\\Wechaty.csproj": {
+                "projectPath": "D:\\dotnet-wechaty-master\\src\\Wechaty\\Wechaty.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "IronPython": {
+              "target": "Package",
+              "version": "[3.4.0-alpha1, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\dotnet-wechaty-master\\src\\Wechaty\\Wechaty.csproj": {
+      "version": "0.1.6",
+      "restore": {
+        "projectUniqueName": "D:\\dotnet-wechaty-master\\src\\Wechaty\\Wechaty.csproj",
+        "projectName": "Wechaty",
+        "projectPath": "D:\\dotnet-wechaty-master\\src\\Wechaty\\Wechaty.csproj",
+        "packagesPath": "C:\\Users\\Bruce Qiu\\.nuget\\packages\\",
+        "outputPath": "D:\\dotnet-wechaty-master\\src\\Wechaty\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bruce Qiu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.PuppetService\\Wechaty.Module.PuppetService.csproj": {
+                "projectPath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.PuppetService\\Wechaty.Module.PuppetService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Nito.AsyncEx": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "OpenGraph-Net": {
+              "target": "Package",
+              "version": "[3.2.4, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "SourceLink.Create.CommandLine": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.8.3, )"
+            },
+            "TencentCloudSDK.Nlp": {
+              "target": "Package",
+              "version": "[3.0.336, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>Wechaty.Module.Watchdog</AssemblyName>
+    <RootNamespace>Wechaty.Module.Watchdog</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wechaty.Module.Common\Wechaty.Module.Common.csproj" />
+    <ProjectReference Include="..\Wechaty.Module.EventEmitter\Wechaty.Module.EventEmitter.csproj" />
+  </ItemGroup>
+
+</Project>

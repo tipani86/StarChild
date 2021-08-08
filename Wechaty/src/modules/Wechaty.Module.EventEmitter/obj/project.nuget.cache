@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "IEd9zso7lpRsjd5m53Ma1PKYW3djtsj4siWzyke5ujebrfJ3OUWPZ/WV7lntuw+LP9rVEzXldZYaIEc3uQu7tw==",
+  "success": true,
+  "projectFilePath": "D:\\dotnet-wechaty-master\\src\\modules\\Wechaty.Module.EventEmitter\\Wechaty.Module.EventEmitter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bruce Qiu\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
+    "C:\\Users\\Bruce Qiu\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0\\microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512",
+    "C:\\Users\\Bruce Qiu\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\microsoft.codeanalysis.common.3.8.0.nupkg.sha512",
+    "C:\\Users\\Bruce Qiu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bruce Qiu\\.nuget\\packages\\sourcelink.create.commandline\\2.8.3\\sourcelink.create.commandline.2.8.3.nupkg.sha512",
+    "C:\\Users\\Bruce Qiu\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Bruce Qiu\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bruce Qiu\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Bruce Qiu\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Bruce Qiu\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
+    "C:\\Users\\Bruce Qiu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\Bruce Qiu\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\Bruce Qiu\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

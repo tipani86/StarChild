@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
+    <PackageReference Include="Nito.AsyncEx" Version="5.0.0" />
+    <PackageReference Include="OpenGraph-Net" Version="3.2.4" />
+    <PackageReference Include="Polly" Version="7.2.1" />
+    <PackageReference Include="TencentCloudSDK.Nlp" Version="3.0.336" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\modules\Wechaty.Module.PuppetService\Wechaty.Module.PuppetService.csproj" />
+  </ItemGroup>
+</Project>

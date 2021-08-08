@@ -1,0 +1,860 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wechaty.Module.EventEmitter</name>
+    </assembly>
+    <members>
+        <member name="T:Wechaty.Module.EventEmitter.EventEmitterExtensions">
+            <summary>
+            事件发射器扩展类
+            </summary>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``1(``0,System.String,System.Delegate)">
+            <summary>
+            Removes the specified listener from the listener array for the event named eventName.
+            <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``1(``0,System.String,System.Delegate)"/> will remove, at most, one instance of a listener from the listener array.
+            If any single listener has been added multiple times to the listener array for the specified eventName,
+            then <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``1(``0,System.String,System.Delegate)"/> must be called multiple times to remove each instance.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``1(``0,System.String,System.Action)">
+            <summary>
+            Removes the specified listener from the listener array for the event named eventName.
+            <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``1(``0,System.String,System.Action)"/> will remove, at most, one instance of a listener from the listener array.
+            If any single listener has been added multiple times to the listener array for the specified eventName,
+            then <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``1(``0,System.String,System.Action)"/> must be called multiple times to remove each instance.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``2(``0,System.String,System.Action{``1})">
+            <summary>
+            Removes the specified listener from the listener array for the event named eventName.
+            <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``2(``0,System.String,System.Action{``1})"/> will remove, at most, one instance of a listener from the listener array.
+            If any single listener has been added multiple times to the listener array for the specified eventName,
+            then <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``2(``0,System.String,System.Action{``1})"/> must be called multiple times to remove each instance.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``3(``0,System.String,System.Action{``1,``2})">
+            <summary>
+            Removes the specified listener from the listener array for the event named eventName.
+            <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``3(``0,System.String,System.Action{``1,``2})"/> will remove, at most, one instance of a listener from the listener array.
+            If any single listener has been added multiple times to the listener array for the specified eventName,
+            then <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``3(``0,System.String,System.Action{``1,``2})"/> must be called multiple times to remove each instance.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``4(``0,System.String,System.Action{``1,``2,``3})">
+            <summary>
+            Removes the specified listener from the listener array for the event named eventName.
+            <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``4(``0,System.String,System.Action{``1,``2,``3})"/> will remove, at most, one instance of a listener from the listener array.
+            If any single listener has been added multiple times to the listener array for the specified eventName,
+            then <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``4(``0,System.String,System.Action{``1,``2,``3})"/> must be called multiple times to remove each instance.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``5(``0,System.String,System.Action{``1,``2,``3,``4})">
+            <summary>
+            Removes the specified listener from the listener array for the event named eventName.
+            <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``5(``0,System.String,System.Action{``1,``2,``3,``4})"/> will remove, at most, one instance of a listener from the listener array.
+            If any single listener has been added multiple times to the listener array for the specified eventName,
+            then <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``5(``0,System.String,System.Action{``1,``2,``3,``4})"/> must be called multiple times to remove each instance.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``6(``0,System.String,System.Action{``1,``2,``3,``4,``5})">
+            <summary>
+            Removes the specified listener from the listener array for the event named eventName.
+            <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``6(``0,System.String,System.Action{``1,``2,``3,``4,``5})"/> will remove, at most, one instance of a listener from the listener array.
+            If any single listener has been added multiple times to the listener array for the specified eventName,
+            then <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``6(``0,System.String,System.Action{``1,``2,``3,``4,``5})"/> must be called multiple times to remove each instance.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <typeparam name="T5"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``7(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6})">
+            <summary>
+            Removes the specified listener from the listener array for the event named eventName.
+            <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``7(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6})"/> will remove, at most, one instance of a listener from the listener array.
+            If any single listener has been added multiple times to the listener array for the specified eventName,
+            then <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``7(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6})"/> must be called multiple times to remove each instance.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <typeparam name="T5"></typeparam>
+            <typeparam name="T6"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``8(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6,``7})">
+            <summary>
+            Removes the specified listener from the listener array for the event named eventName.
+            <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``8(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6,``7})"/> will remove, at most, one instance of a listener from the listener array.
+            If any single listener has been added multiple times to the listener array for the specified eventName,
+            then <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``8(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6,``7})"/> must be called multiple times to remove each instance.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <typeparam name="T5"></typeparam>
+            <typeparam name="T6"></typeparam>
+            <typeparam name="T7"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``9(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6,``7,``8})">
+            <summary>
+            Removes the specified listener from the listener array for the event named eventName.
+            <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``9(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6,``7,``8})"/> will remove, at most, one instance of a listener from the listener array.
+            If any single listener has been added multiple times to the listener array for the specified eventName,
+            then <see cref="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.RemoveListener``9(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6,``7,``8})"/> must be called multiple times to remove each instance.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <typeparam name="T5"></typeparam>
+            <typeparam name="T6"></typeparam>
+            <typeparam name="T7"></typeparam>
+            <typeparam name="T8"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.On``1(``0,System.String,System.Delegate)">
+            <summary>
+            Adds the listener function to the end of the listeners array for the event named eventName.
+            No checks are made to see if the listener has already been added.
+            Multiple calls passing the same combination of eventName and listener will result in the listener being added, and called, multiple times.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.On(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.On``1(``0,System.String,System.Action)">
+            <summary>
+            Adds the listener function to the end of the listeners array for the event named eventName.
+            No checks are made to see if the listener has already been added.
+            Multiple calls passing the same combination of eventName and listener will result in the listener being added, and called, multiple times.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.On(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.On``2(``0,System.String,System.Action{``1})">
+            <summary>
+            Adds the listener function to the end of the listeners array for the event named eventName.
+            No checks are made to see if the listener has already been added.
+            Multiple calls passing the same combination of eventName and listener will result in the listener being added, and called, multiple times.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.On(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.On``3(``0,System.String,System.Action{``1,``2})">
+            <summary>
+            Adds the listener function to the end of the listeners array for the event named eventName.
+            No checks are made to see if the listener has already been added.
+            Multiple calls passing the same combination of eventName and listener will result in the listener being added, and called, multiple times.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.On(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.On``4(``0,System.String,System.Action{``1,``2,``3})">
+            <summary>
+            Adds the listener function to the end of the listeners array for the event named eventName.
+            No checks are made to see if the listener has already been added.
+            Multiple calls passing the same combination of eventName and listener will result in the listener being added, and called, multiple times.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.On(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.On``5(``0,System.String,System.Action{``1,``2,``3,``4})">
+            <summary>
+            Adds the listener function to the end of the listeners array for the event named eventName.
+            No checks are made to see if the listener has already been added.
+            Multiple calls passing the same combination of eventName and listener will result in the listener being added, and called, multiple times.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.On(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.On``6(``0,System.String,System.Action{``1,``2,``3,``4,``5})">
+            <summary>
+            Adds the listener function to the end of the listeners array for the event named eventName.
+            No checks are made to see if the listener has already been added.
+            Multiple calls passing the same combination of eventName and listener will result in the listener being added, and called, multiple times.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.On(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <typeparam name="T5"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.On``7(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6})">
+            <summary>
+            Adds the listener function to the end of the listeners array for the event named eventName.
+            No checks are made to see if the listener has already been added.
+            Multiple calls passing the same combination of eventName and listener will result in the listener being added, and called, multiple times.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.On(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <typeparam name="T5"></typeparam>
+            <typeparam name="T6"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.On``8(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6,``7})">
+            <summary>
+            Adds the listener function to the end of the listeners array for the event named eventName.
+            No checks are made to see if the listener has already been added.
+            Multiple calls passing the same combination of eventName and listener will result in the listener being added, and called, multiple times.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.On(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <typeparam name="T5"></typeparam>
+            <typeparam name="T6"></typeparam>
+            <typeparam name="T7"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.On``9(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6,``7,``8})">
+            <summary>
+            Adds the listener function to the end of the listeners array for the event named eventName.
+            No checks are made to see if the listener has already been added.
+            Multiple calls passing the same combination of eventName and listener will result in the listener being added, and called, multiple times.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.On(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <typeparam name="T5"></typeparam>
+            <typeparam name="T6"></typeparam>
+            <typeparam name="T7"></typeparam>
+            <typeparam name="T8"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.Once``1(``0,System.String,System.Delegate)">
+            <summary>
+            Adds a one-time listener function for the event named eventName.
+            The next time eventName is triggered, this listener is removed and then invoked.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Once(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.Once``1(``0,System.String,System.Action)">
+            <summary>
+            Adds a one-time listener function for the event named eventName.
+            The next time eventName is triggered, this listener is removed and then invoked.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Once(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.Once``2(``0,System.String,System.Action{``1})">
+            <summary>
+            Adds a one-time listener function for the event named eventName.
+            The next time eventName is triggered, this listener is removed and then invoked.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Once(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.Once``3(``0,System.String,System.Action{``1,``2})">
+            <summary>
+            Adds a one-time listener function for the event named eventName.
+            The next time eventName is triggered, this listener is removed and then invoked.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Once(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.Once``4(``0,System.String,System.Action{``1,``2,``3})">
+            <summary>
+            Adds a one-time listener function for the event named eventName.
+            The next time eventName is triggered, this listener is removed and then invoked.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Once(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.Once``5(``0,System.String,System.Action{``1,``2,``3,``4})">
+            <summary>
+            Adds a one-time listener function for the event named eventName.
+            The next time eventName is triggered, this listener is removed and then invoked.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Once(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.Once``6(``0,System.String,System.Action{``1,``2,``3,``4,``5})">
+            <summary>
+            Adds a one-time listener function for the event named eventName.
+            The next time eventName is triggered, this listener is removed and then invoked.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Once(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <typeparam name="T5"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.Once``7(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6})">
+            <summary>
+            Adds a one-time listener function for the event named eventName.
+            The next time eventName is triggered, this listener is removed and then invoked.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Once(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <typeparam name="T5"></typeparam>
+            <typeparam name="T6"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.Once``8(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6,``7})">
+            <summary>
+            Adds a one-time listener function for the event named eventName.
+            The next time eventName is triggered, this listener is removed and then invoked.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Once(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <typeparam name="T5"></typeparam>
+            <typeparam name="T6"></typeparam>
+            <typeparam name="T7"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitterExtensions.Once``9(``0,System.String,System.Action{``1,``2,``3,``4,``5,``6,``7,``8})">
+            <summary>
+            Adds a one-time listener function for the event named eventName.
+            The next time eventName is triggered, this listener is removed and then invoked.
+            Helper method for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Once(System.String,System.Action{System.Object[]})"/>.
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+            <typeparam name="T1"></typeparam>
+            <typeparam name="T2"></typeparam>
+            <typeparam name="T3"></typeparam>
+            <typeparam name="T4"></typeparam>
+            <typeparam name="T5"></typeparam>
+            <typeparam name="T6"></typeparam>
+            <typeparam name="T7"></typeparam>
+            <typeparam name="T8"></typeparam>
+            <param name="eventEmitter"></param>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="T:Wechaty.Module.EventEmitter.EventEmitter`1">
+            <summary>
+            event emitter
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.EventEmitter`1.NewListenerSymbol">
+            <summary>
+            The EventEmitter instance will emit its own <see cref="P:Wechaty.Module.EventEmitter.EventEmitter`1.NewListenerSymbol"/> event before a listener is added to its internal array of listeners.
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.EventEmitter`1.RemoveListenerSymbol">
+            <summary>
+            The <see cref="P:Wechaty.Module.EventEmitter.EventEmitter`1.RemoveListenerSymbol"/> event is emitted after the listener is removed.
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.EventEmitter`1.ErrorMonitorSymbol">
+            <summary>
+            This symbol shall be used to install a listener for only monitoring 'error' events.
+            Listeners installed using this symbol are called before the regular 'error' listeners are called.
+            Installing a listener using this symbol does not change the behavior once an 'error' event is emitted,
+            therefore the process will still crash if no regular 'error' listener is installed.
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.EventEmitter`1.DefaultMaxListeners">
+            <summary>
+            By default, a maximum of 10 listeners can be registered for any single event.
+            This limit can be changed for individual EventEmitter instances using the emitter.setMaxListeners(n) method.
+            To change the default for all EventEmitter instances, the EventEmitter.defaultMaxListeners property can be used.
+            If this value is not a positive number, a TypeError will be thrown.
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.EventEmitter`1.EventNames">
+            <inheritdoc/>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.EventEmitter`1.MaxListeners">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitter`1.AddListener(System.String,System.Action{System.Object[]})">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitter`1.Emit(System.String,System.Object[])">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitter`1.ListenerCount(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitter`1.Listeners(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitter`1.Off(System.String,System.Action{System.Object[]})">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitter`1.On(System.String,System.Action{System.Object[]})">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitter`1.Once(System.String,System.Action{System.Object[]})">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitter`1.PrependListener(System.String,System.Action{System.Object[]})">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitter`1.PrependOnceListener(System.String,System.Action{System.Object[]})">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitter`1.RawListeners(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitter`1.RemoveAllListener(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.EventEmitter`1.RemoveListener(System.String,System.Action{System.Object[]})">
+            <inheritdoc/>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.EventEmitter`1.ToImplement">
+            <summary>
+            return this.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Wechaty.Module.EventEmitter.IEventEmitter`1">
+            <summary>
+            event emitter
+            </summary>
+            <typeparam name="TEventEmitter"></typeparam>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.IEventEmitter`1.AddListener(System.String,System.Action{System.Object[]})">
+            <summary>
+            Alias for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.On(System.String,System.Action{System.Object[]})"/>
+            Adds the listener function to the end of the listeners array for the event named eventName.
+            No checks are made to see if the listener has already been added.
+            Multiple calls passing the same combination of eventName and listener will result in the listener being added, and called, multiple times.
+            </summary>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Emit(System.String,System.Object[])">
+            <summary>
+            Synchronously calls each of the listeners registered for the event named eventName,
+            in the order they were registered, passing the supplied arguments to each.
+            </summary>
+            <param name="eventName"></param>
+            <param name="args"></param>
+            <returns>Returns true if the event had listeners, false otherwise.</returns>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.IEventEmitter`1.EventNames">
+            <summary>
+            Returns an array listing the events for which the emitter has registered listeners. The values in the array will be strings
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.IEventEmitter`1.MaxListeners">
+            <summary>
+            The current max listener value for the EventEmitter or defaults to <see cref="P:Wechaty.Module.EventEmitter.EventEmitter`1.DefaultMaxListeners"/>.
+            </summary>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.IEventEmitter`1.ListenerCount(System.String)">
+            <summary>
+            Returns the number of listeners listening to the event named eventName.
+            </summary>
+            <param name="eventName">The name of the event being listened for</param>
+            <returns>Returns the number of listeners listening to the event named eventName.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Listeners(System.String)">
+            <summary>
+            Returns a copy of the array of listeners for the event named eventName.
+            </summary>
+            <param name="eventName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Off(System.String,System.Action{System.Object[]})">
+            <summary>
+            Alias for <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.RemoveListener(System.String,System.Action{System.Object[]})"/>.
+            Removes the specified listener from the listener array for the event named eventName.
+            <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.RemoveListener(System.String,System.Action{System.Object[]})"/> will remove, at most, one instance of a listener from the listener array.
+            If any single listener has been added multiple times to the listener array for the specified eventName,
+            then <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.RemoveListener(System.String,System.Action{System.Object[]})"/> must be called multiple times to remove each instance.
+            </summary>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.IEventEmitter`1.On(System.String,System.Action{System.Object[]})">
+            <summary>
+            Adds the listener function to the end of the listeners array for the event named eventName.
+            No checks are made to see if the listener has already been added.
+            Multiple calls passing the same combination of eventName and listener will result in the listener being added, and called, multiple times.
+            </summary>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Once(System.String,System.Action{System.Object[]})">
+            <summary>
+            Adds a one-time listener function for the event named eventName.
+            The next time eventName is triggered, this listener is removed and then invoked.
+            </summary>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.IEventEmitter`1.PrependListener(System.String,System.Action{System.Object[]})">
+            <summary>
+            Adds the listener function to the beginning of the listeners array for the event named eventName.
+            No checks are made to see if the listener has already been added.
+            Multiple calls passing the same combination of eventName and listener will result in the listener being added, and called, multiple times.
+            </summary>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.IEventEmitter`1.PrependOnceListener(System.String,System.Action{System.Object[]})">
+            <summary>
+            Adds a one-time listener function for the event named eventName to the beginning of the listeners array.
+            The next time eventName is triggered, this listener is removed, and then invoked.
+            </summary>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.IEventEmitter`1.RemoveAllListener(System.String)">
+            <summary>
+            Removes all listeners, or those of the specified eventName.
+            </summary>
+            <param name="eventName">The name of the event.</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.IEventEmitter`1.RemoveListener(System.String,System.Action{System.Object[]})">
+            <summary>
+            Removes the specified listener from the listener array for the event named eventName.
+            <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.RemoveListener(System.String,System.Action{System.Object[]})"/> will remove, at most, one instance of a listener from the listener array.
+            If any single listener has been added multiple times to the listener array for the specified eventName,
+            then <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.RemoveListener(System.String,System.Action{System.Object[]})"/> must be called multiple times to remove each instance.
+            </summary>
+            <param name="eventName">The name of the event.</param>
+            <param name="listener">The callback function</param>
+            <returns>Returns a reference to the EventEmitter, so that calls can be chained.</returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.IEventEmitter`1.RawListeners(System.String)">
+            <summary>
+            Returns a copy of the array of listeners for the event named eventName, including any wrappers (such as those created by <see cref="M:Wechaty.Module.EventEmitter.IEventEmitter`1.Once(System.String,System.Action{System.Object[]})"/>).
+            </summary>
+            <param name="eventName"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Wechaty.Module.EventEmitter.IInheritance`2">
+            <summary>
+            
+            </summary>
+            <typeparam name="TImplement"></typeparam>
+            <typeparam name="TSupper"></typeparam>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.IInheritance`2.ToImplement">
+            <summary>
+            implement of <see cref="T:Wechaty.Module.EventEmitter.IInheritance`2"/>, for get `this`
+            </summary>
+        </member>
+        <member name="T:Wechaty.Module.EventEmitter.State">
+            <summary>
+            state of: on/off/pending
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.EventEmitter.State.PendingSymbol">
+            <summary>
+            symbol of pending state
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.EventEmitter.State.OnSymbol">
+            <summary>
+            symbol of on state
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.EventEmitter.State.OffSymbol">
+            <summary>
+            symbol of off state
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.EventEmitter.State.Pending">
+            <summary>
+            state pending
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.EventEmitter.State.On">
+            <summary>
+            state on
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.EventEmitter.State.Off">
+            <summary>
+            state off
+            </summary>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.State.op_Implicit(System.Boolean)~Wechaty.Module.EventEmitter.State">
+            <summary>
+            convert bool to <see cref="T:Wechaty.Module.EventEmitter.State"/>
+            </summary>
+            <param name="state"></param>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.State.op_Implicit(System.String)~Wechaty.Module.EventEmitter.State">
+            <summary>
+            convert string to <see cref="T:Wechaty.Module.EventEmitter.State"/>
+            </summary>
+            <param name="pending"></param>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.State.op_Implicit(Wechaty.Module.EventEmitter.State)~System.Boolean">
+            <summary>
+            convert state to bool
+            </summary>
+            <param name="state"></param>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.State.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.State.Equals(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.State.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.State.Equals(Wechaty.Module.EventEmitter.State)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.State.CompareTo(Wechaty.Module.EventEmitter.State)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.State.op_Equality(Wechaty.Module.EventEmitter.State,Wechaty.Module.EventEmitter.State)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.State.op_Inequality(Wechaty.Module.EventEmitter.State,Wechaty.Module.EventEmitter.State)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.State.op_LessThan(Wechaty.Module.EventEmitter.State,Wechaty.Module.EventEmitter.State)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.State.op_LessThanOrEqual(Wechaty.Module.EventEmitter.State,Wechaty.Module.EventEmitter.State)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.State.op_GreaterThan(Wechaty.Module.EventEmitter.State,Wechaty.Module.EventEmitter.State)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.State.op_GreaterThanOrEqual(Wechaty.Module.EventEmitter.State,Wechaty.Module.EventEmitter.State)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Wechaty.Module.EventEmitter.StateSwitch">
+            <summary>
+            状态开关
+            </summary>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.StateSwitch.#ctor(System.String,Microsoft.Extensions.Logging.ILogger{Wechaty.Module.EventEmitter.StateSwitch})">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.StateSwitch.Name">
+            <summary>
+            name
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.StateSwitch.Pending">
+            <summary>
+            check if current switch is in pending state
+            </summary>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.StateSwitch.SetLog(Microsoft.Extensions.Logging.ILogger{Wechaty.Module.EventEmitter.StateSwitch})">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.StateSwitch.IsOn">
+            <summary>
+            get current switch state or set to <see cref="F:Wechaty.Module.EventEmitter.State.On"/> or <see cref="F:Wechaty.Module.EventEmitter.State.Off"/>
+            </summary>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.StateSwitch.IsOff">
+            <summary>
+            get current switch state or set to <see cref="F:Wechaty.Module.EventEmitter.State.On"/> or <see cref="F:Wechaty.Module.EventEmitter.State.Off"/>
+            </summary>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.StateSwitch.Ready(System.Boolean)">
+            <summary>
+            is ready in state or `<see cref="F:Wechaty.Module.EventEmitter.State.On"/>`
+            </summary>
+            <param name="noCross"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechaty.Module.EventEmitter.StateSwitch.Ready(Wechaty.Module.EventEmitter.State,System.Boolean)">
+            <summary>
+            waiting for `<paramref name="state"/>`
+            </summary>
+            <param name="state"></param>
+            <param name="noCross"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Wechaty.Module.EventEmitter.StateSwitch.ToImplement">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

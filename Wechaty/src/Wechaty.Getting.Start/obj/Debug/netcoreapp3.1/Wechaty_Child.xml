@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wechaty_Child</name>
+    </assembly>
+    <members>
+        <member name="M:Wechaty_Child.ConsoleClientHostedService.ImageToBase64(System.String)">
+            <summary>
+            Image 转成 base64
+            </summary>
+            <param name="fileFullName"></param>
+        </member>
+        <member name="M:Wechaty_Child.ConsoleClientHostedService.StopAsync(System.Threading.CancellationToken)">
+            <summary>
+            Stop
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

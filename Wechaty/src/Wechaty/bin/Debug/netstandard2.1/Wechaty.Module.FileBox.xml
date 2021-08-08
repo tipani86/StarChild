@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wechaty.Module.FileBox</name>
+    </assembly>
+    <members>
+        <member name="T:Wechaty.Module.Filebox.FileBoxOptions">
+            <summary>
+            URI to the file
+            See:
+             <see href="https://nodejs.org/api/fs.html#fs_url_object_support">fs_url_object_support</see>.
+             <see href="https://danielmiessler.com/study/url-uri/">url-uri</see>
+            FileType: LOCAL, REMOTE, BUFFER, STREAM
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Filebox.FileBoxType.Base64">
+            <summary>
+            Serializable by toJSON()
+            </summary>
+        </member>
+        <member name="F:Wechaty.Module.Filebox.FileBoxType.Buffer">
+            <summary>
+            Not serializable by toJSON()
+            Need to convert to FileBoxType.Base64 before call toJSON()
+            </summary>
+        </member>
+    </members>
+</doc>
