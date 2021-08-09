@@ -6,6 +6,12 @@ For more background info, please refer [here](https://www.linkedin.com/pulse/par
 
 ## Server Method Usage
 
+### Easier Method (Docker)
+
+Just use Dockerfile to build a docker image and run it as a container. The server will automatically start upon running and the default port is 1337.
+
+### Manual Method
+
 Use below method if you want to set the service up as HTTP API and call it using POST:
 
 1. Run `server/server.py`
