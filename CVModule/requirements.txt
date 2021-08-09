@@ -1,0 +1,4 @@
+opencv-python==4.5.2.52
+scikit-image==0.18.2
+tqdm
+flask
