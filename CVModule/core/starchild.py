@@ -60,13 +60,13 @@ class StarChild:
             [1,1,1],
             [0,1,0]
         ], np.uint8)
-        gaussian_blurred = cv2.GaussianBlur(img, (3, 3), 1)
+        gaussian_blurred = cv2.GaussianBlur(img, (5, 5), 1)
         wide = cv2.Canny(gaussian_blurred, 10, 200)
         mid = cv2.Canny(gaussian_blurred, 30, 150)
         tight = cv2.Canny(gaussian_blurred, 240, 250)
         edges = wide
 
-        edges = cv2.dilate(edges, kernel, iterations=2)
+        edges = cv2.dilate(edges, kernel, iterations=4)
 
         canvas = np.zeros(img.shape, np.uint8)
 
@@ -91,7 +91,7 @@ class StarChild:
         cv2.drawContours(canvas, new_cnts, 0, 255, -1)
         if len(new_cnts) > 1:
             cv2.drawContours(canvas, new_cnts, 1, 255, -1)
-        canvas = cv2.erode(canvas, kernel, iterations=2)
+        canvas = cv2.erode(canvas, kernel, iterations=4)
         return canvas
 
     def _preprocess_one_image(self, img):
