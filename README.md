@@ -58,6 +58,8 @@
 
 #### 图像识别模块
 
+首先，需要下载预训练好的深度学习模型：[Google Drive](https://drive.google.com/open?id=1PkGX9R-uTYpWBKX0lZRkE2qvvpz1-IiG) 或者 [Baidu NetDisk](https://pan.baidu.com/s/1Gm-YptzsVnHU0a6YkdjQaQ) (code: ilhx)，将文件保存到：`CVModule/core/model`
+
 1. `cd CVModule`
 2. `docker build . -t starchild`
 3. `docker run -d --name starchild -p XXXX:1337 starchild`
