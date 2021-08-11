@@ -105,7 +105,6 @@ class StarChild:
 
         qualified_circles = []
         if circles is not None:
-            # canvas = np.zeros(img.shape, np.uint8)
             circles = np.uint16(np.around(circles))
             for i in circles[0, :]:
                 draw = True
@@ -206,6 +205,7 @@ class StarChild:
                 # Shape matching algorithm
                 diff = sys.float_info.epsilon + cv2.matchShapes(self.templates[key], img, 1, 0.0)
                 res[key] = round(1/diff, 3)
+                res[key] = round(1 - cv2.matchShapes(self.templates[key], img, 2, 0.0), 3)
 
         return res
 
@@ -260,6 +260,41 @@ class StarChild:
                     return collage
         return collage
 
+    def create_blend(self, inp):
+        image, processed_image, similarity = inp
+        # Add some blur on the mask
+        processed_image = cv2.GaussianBlur(processed_image, (7, 7), 3)
+        # Blend image
+        alpha = 0.5     # How much original image is retained (between 0...1)
+        blended = cv2.addWeighted(image, alpha, processed_image, (1-alpha), 0.0)
+
+        # Add prediction text
+        x, y0 = 5, 15
+        font = cv2.FONT_HERSHEY_SIMPLEX
+        scale = 0.4
+        color = (255, 255, 255)
+        pred = max(similarity, key=similarity.get)
+        prob = similarity[pred]
+        if prob <= 0 or prob == "nan":
+            p_text = "none"
+        elif pred == "r":
+            p_text = "round"
+        elif pred == "s":
+            p_text = "square"
+        elif pred == "t":
+            p_text = "triangle"
+        if p_text == "none":
+            overlay = "Prediction:\n{}".format(p_text)
+        else:
+            overlay = "Prediction:\n{} ({})".format(p_text, prob)
+        text_size, _ = cv2.getTextSize(overlay, font, scale, 1)
+        line_height = text_size[1] + 5
+        for k, line in enumerate(overlay.split("\n")):
+            y = y0 + k * line_height
+            cv2.putText(blended, line, (x, y), font, scale, (0, 0, 0), thickness=2)
+            cv2.putText(blended, line, (x, y), font, scale, color, thickness=1)
+        return blended
+
     def run(self, image_paths, debug=False):
         # template_collage = self.generate_collage(list(self.templates.values()))
         # cv2.imshow('image', template_collage)
@@ -279,11 +314,18 @@ class StarChild:
             similarities = list(tqdm(p.imap(self.calculate_similarities, self.processed_images), total=len(self.processed_images)))
         p.join()
 
+        # Blend the processed result onto original image
+        blend_inp = list(zip(self.images, self.processed_images, similarities))
+
+        with Pool() as p:
+            blended_images = list(tqdm(p.imap(self.create_blend, blend_inp), total=len(blend_inp)))
+        p.join()
+
         # Generate the preview collage and fill it with images and the calculation results
         self.preview = self.generate_collage(self.images, similarities, debug)
-        processed_collage = self.generate_collage(self.processed_images)
+        blended_collage = self.generate_collage(blended_images)
 
-        concat = np.concatenate([self.preview, processed_collage], axis=1)
+        concat = np.concatenate([self.preview, blended_collage], axis=1)
 
         cv2.imshow('image', concat)
         cv2.waitKey(0)
@@ -291,11 +333,15 @@ class StarChild:
     def evaluate_one_image(self, image_path, gt=None):
         img, processed_img = self.load_and_preprocess(image_path)
         similarities = self.calculate_similarities(processed_img)
+        blended = self.create_blend((img, processed_img, similarities))
         pred = max(similarities, key=similarities.get)
-        if gt:
-            return pred == gt
+        prob = similarities[pred]
+        if prob <= 0:
+            return False, blended
+        elif gt:
+            return pred == gt, blended
         else:
-            return None
+            return None, blended
 
 def run_evaluation(gt, image_path):
     # gt should be one of: r, s, t (round, square, triangle)
