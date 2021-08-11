@@ -26,6 +26,7 @@ def b64_to_file(base64_string, outfile):
 def test_server(addr, port, payload):
     res = requests.post("http://{}:{}/api/getPrediction".format(addr, port), json=payload)
     response = res.json()
+    print(response)
     if response['data']:
         b64_to_file(response['data'], "test_response.jpg")
     return response['message']
@@ -39,6 +40,7 @@ if __name__ == '__main__':
                         required = True,
                         help = "test server from 'LOCAL', 'CHA_DEV', etc"
                         )
+    parser.add_argument("--address", default=None, help="IP:port, used with CHA_DEV call mode")
     args = parser.parse_args()
 
     if not os.path.isdir(args.input):
@@ -62,5 +64,8 @@ if __name__ == '__main__':
 
     if args.CALL == "LOCAL":
         res = test_server("0.0.0.0", "1337", payload)
+
+    if args.CALL == "CHA_DEV" and args.address:
+        res = test_server(args.address.split(":")[0], args.address.split(":")[1], payload)
 
     print(res)
