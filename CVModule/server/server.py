@@ -31,6 +31,12 @@ def b64_to_file(base64_string, outfile):
     pillow.save(outfile)
     return outfile
 
+def img_data_to_b64(img):
+    pil_img = Image.fromarray(img)
+    buff = io.BytesIO()
+    pil_img.save(buff, format="JPEG")
+    return base64.b64encode(buff.getvalue()).decode("utf-8")
+
 @server.route("/index")
 def index():
     return jsonify({
@@ -41,8 +47,9 @@ def index():
 @server.route("/api/getPrediction", methods=["GET", "POST"])
 def get_info():
     res = {
-        "status": 0,
-        "message": None
+        'status': 0,
+        'message': None,
+        'data': None,
     }
     try:
         data = request.json
@@ -52,7 +59,8 @@ def get_info():
         # Saving image to temp location and get path
         img_path = b64_to_file(base64_string, "__temp.jpg")
         # Perform evaluation and save result
-        res['message'] = app.evaluate_one_image(img_path, gt)
+        res['message'], res_data_raw = app.evaluate_one_image(img_path, gt)
+        res['data'] = img_data_to_b64(res_data_raw)
         return jsonify(res)
     except Exception as e:
         res['status'] = 2

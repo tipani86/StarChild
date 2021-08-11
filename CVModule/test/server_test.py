@@ -8,16 +8,26 @@ Created on 2021-08-06 11:53
 
 """
 import os
+import io
 import cv2
 import base64
 import random
 import argparse
 import requests
 from glob import glob
+from PIL import Image
+
+def b64_to_file(base64_string, outfile):
+    imgdata = base64.b64decode(base64_string)
+    pillow = Image.open(io.BytesIO(imgdata))
+    pillow.save(outfile)
+    return outfile
 
 def test_server(addr, port, payload):
     res = requests.post("http://{}:{}/api/getPrediction".format(addr, port), json=payload)
     response = res.json()
+    if response['data']:
+        b64_to_file(response['data'], "test_response.jpg")
     return response['message']
 
 if __name__ == '__main__':
