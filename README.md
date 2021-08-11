@@ -56,7 +56,7 @@
 1. Step 1
 2. Step 2
 
-#### 图像识别
+#### 图像识别模块
 
 1. `cd CVModule`
 2. `docker build . -t starchild`
