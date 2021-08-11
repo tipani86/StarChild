@@ -10,7 +10,6 @@ Created on 2021-08-06 11:19
 import io
 import os
 import sys
-import json
 import base64
 from PIL import Image
 from flask import Flask, request, jsonify
@@ -20,7 +19,7 @@ proj_path = os.path.dirname(pwd)
 core_path = os.path.join(proj_path, "core")
 sys.path.append(core_path)
 os.chdir(core_path)
-import starchild
+import deepstarchild as starchild
 
 server = Flask(__name__)
 app = starchild.StarChild(starchild.TEMPLATES)

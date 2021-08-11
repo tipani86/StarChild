@@ -63,3 +63,5 @@
 3. `docker run -d --name starchild -p XXXX:1337 starchild`
 
 使用`CVModule`子目录下的`dockerfile`将代码封装成Docker镜像，再运行该镜像，服务会自动起来，监听容器里端口1337。可以通过容器启动的命令附加`-p XXXX:1337`将任何主机的端口转到容器里的1337端口。
+
+_图像识别算法的深度学习模型是基于 ["SCRN"-paper](https://github.com/wuzhe71/SCRN) 实现的。_
