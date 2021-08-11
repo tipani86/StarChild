@@ -29,7 +29,7 @@
 
 ### 游戏玩法
 
-![ezgif-1-7605f492f820](https://user-images.githubusercontent.com/60060750/128638569-64e972c9-03f1-4cf9-a864-ada875d4d075.gif)
+![ezgif-1-8de7005005e4](https://user-images.githubusercontent.com/60060750/128956571-dcd6b205-7784-4c19-9ba6-695b703f5ca1.gif)
 
 (观看完整版[B站视频](https://www.bilibili.com/video/BV1hM4y157e3))
 
