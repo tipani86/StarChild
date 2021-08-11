@@ -1,22 +1,36 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
 """
-Created on 2021-07-31 12:51
+Created on 2021-08-11 22:45
 
 @author: CLB-Tianyi
-@description: Shape recognizer plaything for autistic children
+@description: Shape recognizer plaything for autistic children using deep learning
 
 """
 import os
 import sys
 import cv2
 import math
+import torch
 import random
+import warnings
 import argparse
 import numpy as np
 from tqdm import tqdm
 from glob import glob
 from PIL import Image
+import torch.nn.functional as F
 from multiprocessing import Pool
-from skimage.metrics import structural_similarity as ssim
+from torch.autograd import Variable
+from model.ResNet_models import SCRN
+import torchvision.transforms as transforms
+
+warnings.filterwarnings("ignore", category=UserWarning)
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+
+model = SCRN()
+model.load_state_dict(torch.load(os.path.join('model', 'model.pth'), map_location=torch.device('cpu')))
+model.eval()
 
 TEMPLATES = {
     'r': 'round.png',
@@ -27,105 +41,43 @@ TEMPLATES = {
 class StarChild:
 
     def __init__(self, templates):
-        self.one_side = 160
+        self.one_side = 128
+        self.testsize = 352
         self.images = []
         self.processed_images = []
         self.preview = None
         self.method = "shape"
+        self.img_transform = transforms.Compose([
+            transforms.Resize((self.testsize, self.testsize)),
+            transforms.ToTensor(),
+            transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
+        ])
         # Load templates
         self.templates = {}
         for key in templates:
-            img = self.load(templates[key])
-            self.templates[key] = self.preprocess(img)
-            # self.templates[key] = img
+            _, self.templates[key] = self.load_and_preprocess_nn(templates[key])
 
-    def load_and_preprocess(self, image_path):
-        img = self.load(image_path)
-        # return (img, img)
-        return (img, self.preprocess(img))
+    def load_and_preprocess_nn(self, image_path):
+        # Load
+        img = Image.open(image_path)
+        img = img.convert('RGB')
+        # Preprocess
+        img = self._crop_square(img, PIL=True)
+        img = img.resize((self.one_side, self.one_side))
+        t_img = self.img_transform(img).unsqueeze(0)
+        img = img.convert('L')
+        # Infer salient mask
+        with torch.no_grad():
+            image = Variable(t_img).cpu()
+            res, edge = model(image)
+            res = F.interpolate(res, size=img.size, mode='bilinear', align_corners=True)
+            res = res.sigmoid().data.cpu().numpy().squeeze()
+        res *= 255
+        res = np.round(res, 0).astype(np.uint8)
+        # Threshold mask to make edges sharper
+        _, res = cv2.threshold(res, 0, 255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
 
-    def load(self, image_path):
-        # Load, crop and resize image
-        img = cv2.imread(image_path, 0)
-        img = self._crop_square(img)
-        img = cv2.resize(img, (self.one_side, self.one_side), interpolation=cv2.INTER_AREA)
-        return img
-
-    def preprocess(self, img):
-        return self._preprocess_one_image(img)
-
-    def _get_contours(self, img):
-        kernel = np.array([
-            [0,1,0],
-            [1,1,1],
-            [0,1,0]
-        ], np.uint8)
-        gaussian_blurred = cv2.GaussianBlur(img, (5, 5), 1)
-        wide = cv2.Canny(gaussian_blurred, 10, 200)
-        mid = cv2.Canny(gaussian_blurred, 30, 150)
-        tight = cv2.Canny(gaussian_blurred, 240, 250)
-        edges = wide
-
-        edges = cv2.dilate(edges, kernel, iterations=4)
-
-        canvas = np.zeros(img.shape, np.uint8)
-
-        cnts, hierarchy = cv2.findContours(edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-        cnts = sorted(cnts, key=cv2.contourArea, reverse=True)[:10]
-        new_cnts = []
-        for cnt in cnts:
-            # Skip too small contours
-            if cv2.contourArea(cnt) < 15:
-                continue
-
-            # Find length of contours
-            param = cv2.arcLength(cnt, True)
-
-            # Approximate what type of shape this is
-            approx = cv2.approxPolyDP(cnt, 0.01 * param, True)
-            # print(len(approx))
-            new_cnts.append(approx)
-
-        # Draw contours
-        # -1 signifies drawing all contours
-        cv2.drawContours(canvas, new_cnts, 0, 255, -1)
-        if len(new_cnts) > 1:
-            cv2.drawContours(canvas, new_cnts, 1, 255, -1)
-        canvas = cv2.erode(canvas, kernel, iterations=4)
-        return canvas
-
-    def _preprocess_one_image(self, img):
-        rows = img.shape[0]
-
-        # Extract first contours
-        canvas = self._get_contours(img)
-
-        # Find circles
-        circles = cv2.HoughCircles(img, cv2.HOUGH_GRADIENT_ALT, 2, rows / 3, param1=100, param2=0.8, minRadius=int(0.2 * self.one_side), maxRadius=int(0.9 * self.one_side))
-
-        qualified_circles = []
-        if circles is not None:
-            circles = np.uint16(np.around(circles))
-            for i in circles[0, :]:
-                draw = True
-                center = (i[0], i[1])
-                radius = i[2]
-                for dim in center:
-                    if int(dim) - radius < 0:
-                        draw = False
-                        break
-                    if int(dim) + radius > rows:
-                        draw = False
-                        break
-                # circle outline
-                if draw:
-                    qualified_circles.append((center, radius))
-        if len(qualified_circles) > 0:
-            canvas = np.zeros(img.shape, np.uint8)
-            for center, radius in qualified_circles:
-                cv2.circle(canvas, center, radius, (255, 0, 255), -1)
-
-        return canvas
+        return (np.array(img), res)
 
     def _crop_square(self, img, PIL=False):
         # Crop to 1:1 aspect ratio
@@ -149,26 +101,6 @@ class StarChild:
             else:
                 return img[:, left:left+min_side]
 
-    def histogram(self, key, img):
-        template_histogram = cv2.calcHist([self.templates[key]], [0], None, [256], [0, 256])
-        image_histogram = cv2.calcHist([img], [0], None, [256], [0, 256])
-        return round(cv2.compareHist(template_histogram, image_histogram, cv2.HISTCMP_CHISQR), 3)
-
-    def SSIM_all_angles(self, key, img, method="max"):
-        height, width = img.shape
-        center = (width/2, height/2)
-        rot_angle = 30
-        template = self.templates[key].copy()
-        similarities = []
-        for i in range(int(360/rot_angle)):
-            rotate_matrix = cv2.getRotationMatrix2D(center=center, angle=i * rot_angle, scale=1)
-            rotated_template = cv2.warpAffine(src=template, M=rotate_matrix, dsize=(width, height))
-            similarities.append(ssim(rotated_template, img))
-        if method == "max":
-            return round(max(similarities), 3)
-        if method == "mean":
-            return round(np.mean(similarities), 3)
-
     def ORB(self, key, img):
         orb = cv2.ORB_create()
 
@@ -189,22 +121,6 @@ class StarChild:
         # Calculate the similarity between query and template images based on various methods and return scores
         res = {}
         for key in self.templates:
-
-            if self.method == "histogram":
-                # Histogram method
-                res[key] = self.histogram(key, img)
-
-            if self.method == "SSIM_max":
-                # SSIM method (max of all angles)
-                res[key] = self.SSIM_all_angles(key, img, "max")
-
-            if self.method == "SSIM_mean":
-                # SSIM method (mean of all angles)
-                res[key] = self.SSIM_all_angles(key, img, "mean")
-
-            if self.method == "SSIM":
-                # SSIM method (direct)
-                res[key] = round(ssim(self.templates[key], img), 3)
 
             if self.method == "ORB":
                 # ORB matching method
@@ -311,7 +227,7 @@ class StarChild:
 
         # Load up bunch of input images and preprocess them
         with Pool() as p:
-            res = list(tqdm(p.imap(self.load_and_preprocess, image_paths), total=len(image_paths)))
+            res = list(tqdm(p.imap(self.load_and_preprocess_nn, image_paths), total=len(image_paths)))
         p.join()
 
         for item in res:
@@ -340,7 +256,7 @@ class StarChild:
         cv2.waitKey(0)
 
     def evaluate_one_image(self, image_path, gt=None):
-        img, processed_img = self.load_and_preprocess(image_path)
+        img, processed_img = self.load_and_preprocess_nn(image_path)
         similarities = self.calculate_similarities(processed_img)
         blended = self.create_blend((img, processed_img, similarities))
         pred = max(similarities, key=similarities.get)

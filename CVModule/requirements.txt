@@ -1,4 +1,6 @@
 opencv-python==4.5.2.52
 scikit-image==0.18.2
-tqdm
+torchvision==0.10.0
+torch==1.9.0
 flask
+tqdm
