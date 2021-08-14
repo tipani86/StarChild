@@ -77,7 +77,7 @@ To stick with the universal design principle, we chose a cognitive improvement p
 3. Main Wechaty program that allows the program to access all the messages and attachments sent to the chatrooms and grabbed by the Puppet service. The main chat logic of the app will be built into the Wechaty part such as specific wake words, if-this-then-thats, all the rules for interaction basically
 4. A standalone Python CV recognition service, using the Flask framework that the Wechaty program could call via a simple http API to transfer data back and forth
 
--
+--
 
 1. 微信聊天群或者小窗：正常互动（如：发送消息，接收消息，发/收图片等）
 2. 微信Puppet代理：这个模块会拿你的微信账号登录到一台虚拟iPad设备上，获取到微信的聊天信息，再转到核心的聊天机器人模块
@@ -90,6 +90,8 @@ To stick with the universal design principle, we chose a cognitive improvement p
 
 1. Run the C# code under the Wechaty directory
 2. The code will generate a QR code, scan and log in to the Puppet proxy using your WeChat account
+
+--
 
 1. 运行Wechaty子目录之下的C#代码
 2. 将使用移动设备的微信扫码登录程序显示的二维码，绑定Puppet代理
