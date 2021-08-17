@@ -30,8 +30,7 @@
 
 | <h2>Generating Docker Image</h2> |  <h2>生成Docker镜像</h2> |
 | ------------- | ------------- |
-| Use the `dockerfile` under `CVModule` directory to generate a Docker image. When you run it, the service will be automatically started and listens to the port 1337. If you add a `-p XXXX:1337` flag in your `docker run` command, you can specify which port on the host machine will be mapped into the 1337 port within docker. | 
-使用`CVModule`子目录下的`dockerfile`将代码封装成Docker镜像，再运行该镜像，服务会自动起来，监听容器里端口1337。可以通过容器启动的命令附加`-p XXXX:1337`将任何主机的端口转到容器里的1337端口。 |
+| Use the `dockerfile` under `CVModule` directory to generate a Docker image. When you run it, the service will be automatically started and listens to the port 1337. If you add a `-p XXXX:1337` flag in your `docker run` command, you can specify which port on the host machine will be mapped into the 1337 port within docker. | 使用`CVModule`子目录下的`dockerfile`将代码封装成Docker镜像，再运行该镜像，服务会自动起来，监听容器里端口1337。可以通过容器启动的命令附加`-p XXXX:1337`将任何主机的端口转到容器里的1337端口。 |
 
 | <h2>Other</h2> |  <h2>其他</h2> |
 | ------------- | ------------- |
