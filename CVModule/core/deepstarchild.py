@@ -47,6 +47,7 @@ class StarChild:
         self.processed_images = []
         self.preview = None
         self.method = "shape"
+        self.pred_thresh = 0.75  # Predict only if top confidence exceeds this threshold
         self.img_transform = transforms.Compose([
             transforms.Resize((self.testsize, self.testsize)),
             transforms.ToTensor(),
@@ -194,14 +195,13 @@ class StarChild:
         blended = cv2.addWeighted(image, alpha, processed_image, (1-alpha), 0.0)
 
         # Add prediction text
-        pred_thresh = 0.75  # Predict only if top confidence exceeds this threshold
         x, y0 = 5, 15
         font = cv2.FONT_HERSHEY_SIMPLEX
         scale = 0.4
         color = (255, 255, 255)
         pred = max(similarity, key=similarity.get)
         prob = similarity[pred]
-        if prob <= pred_thresh or prob == "nan":
+        if prob <= self.pred_thresh or prob == "nan":
             p_text = "none"
         elif pred == "r":
             p_text = "round"
@@ -262,7 +262,7 @@ class StarChild:
         blended = self.create_blend((img, processed_img, similarities))
         pred = max(similarities, key=similarities.get)
         prob = similarities[pred]
-        if prob <= 0:
+        if prob <= self.pred_thresh:
             return False, blended
         elif gt:
             return pred == gt, blended
