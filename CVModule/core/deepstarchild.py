@@ -194,13 +194,14 @@ class StarChild:
         blended = cv2.addWeighted(image, alpha, processed_image, (1-alpha), 0.0)
 
         # Add prediction text
+        pred_thresh = 0.75  # Predict only if top confidence exceeds this threshold
         x, y0 = 5, 15
         font = cv2.FONT_HERSHEY_SIMPLEX
         scale = 0.4
         color = (255, 255, 255)
         pred = max(similarity, key=similarity.get)
         prob = similarity[pred]
-        if prob <= 0 or prob == "nan":
+        if prob <= pred_thresh or prob == "nan":
             p_text = "none"
         elif pred == "r":
             p_text = "round"
