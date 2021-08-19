@@ -6,7 +6,7 @@
 
 ![ezgif-3-697a1c2a6c5d](https://user-images.githubusercontent.com/60060750/129930858-432c30df-c284-4dc2-96cf-33e6e98a3614.gif)
 
-(Watch the full [YouTube video](https://www.youtube.com/watch?v=LJjONGwVzpQ) 观看完整版[B站视频](https://www.bilibili.com/video/BV1hM4y157e3))
+(Watch the full [YouTube video](https://www.youtube.com/watch?v=QiWLZLuRMb4) 观看完整版[B站视频](https://www.bilibili.com/video/BV1hM4y157e3))
 
 | English | 中文 |
 | ------------- | ------------- |
