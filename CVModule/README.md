@@ -30,8 +30,9 @@ Use below method if you want to set the service up as HTTP API and call it using
 ### HTTP response sample
 
     {
-        "status": 0,    # 0 means success, else error
-        "message": None # True/False if status 0, else error message
+        "status": 0,        # 0 means success, else error
+        "message": None,    # True/False if status 0, else error message
+        "data": None,       # Default is None, but in case of success, it's base64 encoded string of debug image data
     }
 
 The `true/false` boolean value in the successful return message denotes whether the image matches the shape given in the `gt` or ground truth value. If status is not successful, message will display what the error message was.
